@@ -7,6 +7,18 @@
 <!-- Title -->
 <h1 align="center"><b>CS114 - MÁY HỌC</b></h1>
  <h1> THÀNH VIÊN NHÓM</h1>
+# GIỚI THIỆU MÔN HỌC
+
+* **Tên môn học:** Mấy học
+* **Mã môn học:** CS114
+* **Mã lớp:** CS114..KHCL
+* **Năm học:** HK2 (2021-2022)
+* **Giảng viên:** Lê Đình Duy
+                  Phạm Nguyễn Trường An
+# GIỚI THIỆU NHÓM
+* **Nhóm 6**
+* **Đề tài:**
+* **Thành viên:**
 
 | MSSV     | Họ và tên           | Link github                       | Email                  | Image   |Introduction                                                                                                         |
 |----------|---------------------|-----------------------------------|------------------------|-----------------------------------------------------------------------------------------------------------------| -------- |
