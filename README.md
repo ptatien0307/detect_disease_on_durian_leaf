@@ -9,9 +9,9 @@
  <h1> THÀNH VIÊN NHÓM</h1>
 # GIỚI THIỆU MÔN HỌC
 
-* **Tên môn học:** Mấy học
+* **Tên môn học:** Máy học
 * **Mã môn học:** CS114
-* **Mã lớp:** CS114..KHCL
+* **Mã lớp:** CS114.M21.KHCL
 * **Năm học:** HK2 (2021-2022)
 * **Giảng viên:** Lê Đình Duy
                   Phạm Nguyễn Trường An
