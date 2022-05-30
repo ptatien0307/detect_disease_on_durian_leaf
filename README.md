@@ -17,7 +17,6 @@
                   Phạm Nguyễn Trường An
 # GIỚI THIỆU NHÓM
 * **Nhóm 6**
-* **Đề tài:**
 * **Thành viên:**
 
 | MSSV     | Họ và tên           | Link github                       | Email                  | Image   |Introduction                                                                                                         |
