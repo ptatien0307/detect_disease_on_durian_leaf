@@ -22,9 +22,9 @@
 ## **1.1 MÔ TẢ BÀI TOÁN**
 .....
 
-Input:
+Input: Truyền vào một ảnh chứa một hoặc nhiều chiếc lá sầu riêng.
 
-Output:
+Output: Trả về loại bệnh trên từng lá có trong bức ảnh đó.
 ## **1.2 MÔ TẢ DỮ LIỆU**
 .....
 <a name="cacnghiencuu"></a>
