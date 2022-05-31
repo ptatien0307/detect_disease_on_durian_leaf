@@ -73,7 +73,15 @@ Label 2: Bệnh đốm trắng
 </p>
 
 #### **4.2.1.2 THIẾT LẬP TRAINING**
+Chỉnh sửa các thông số của model YOLOv4 trong file yolov4-custom.cfg:
 
+* batch: 64
+* subdivisions = 16
+* max_batches = 4000 (Bằng số class * 2000)
+* steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches)
+* width = 416, height = 416 (Kích thước của ảnh)
+* classes = 2 (Số class)
+* filters = 21 (Tính theo công thức filters = (classes + 5) * 3)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085332-e76d9e1d-df86-479b-b7c9-fccec6f22831.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
@@ -93,6 +101,36 @@ Label 2: Bệnh đốm trắng
 <br>
 <a style="text-align: center">Hình . Cấu hình training.</a>
 </p>
+
+Tạo file obj.names chứa tên của các class
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171179582-4b6d2814-a50f-443d-800a-9e41e2942002.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
+<br>
+<a style="text-align: center">Hình . File obj.names.</a>
+</p>
+
+Tạo file obj.data có nội dung như sau
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171179655-968ac023-d903-45e9-a1ec-916a9058096a.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
+<br>
+<a style="text-align: center">Hình . File obj.data.</a>
+</p>
+
+Tạo file train.txt chứa đường dẫn tới các ảnh dùng để train
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171178593-f2c535a0-5876-4586-8c0c-7b251b0a13c0.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . File train.txt.</a>
+</p>
+
+Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh giá trong quá trình train
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171178723-d0e22c94-95e3-4148-bd30-3b7b6cad06c2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . File valid.txt.</a>
+</p>
+
 ### **4.2.2 FASTER R-CNN**
 
 #### **4.2.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
