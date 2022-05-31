@@ -84,8 +84,13 @@ Label 2: Bệnh đốm trắng
 ### **4.3.1 METRIC ĐÁNH GIÁ**
 .....
 ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
-.....
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171077401-840643c4-006a-4a92-a543-5a94039bae5d.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4.</a>
+</p>
 <a name="ungdung"></a>
+
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
 <a name="thamkhao"></a>
