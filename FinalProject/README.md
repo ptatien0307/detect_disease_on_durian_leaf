@@ -69,11 +69,30 @@ Label 2: Bệnh đốm trắng
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171000673-06d74018-9757-4b93-aaab-23d96abfbdfe.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu hình training.</a>
+<a style="text-align: center">Hình . Cấu trúc YOLOv4.</a>
 </p>
 
 #### **4.2.1.2 THIẾT LẬP TRAINING**
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171085332-e76d9e1d-df86-479b-b7c9-fccec6f22831.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Cấu hình training.</a>
+</p>
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171085414-aebb5e64-caea-455e-b2a3-f63bb8d2ccf3.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
+<br>
+<a style="text-align: center">Hình . Cấu hình training.</a>
+</p>
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171085453-0c938965-60a6-46ee-af31-846157f4d49c.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
+<br>
+<a style="text-align: center">Hình . Cấu hình training.</a>
+</p>
 ### **4.2.2 FASTER R-CNN**
 
 #### **4.2.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
