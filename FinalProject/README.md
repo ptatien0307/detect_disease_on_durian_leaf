@@ -55,11 +55,19 @@ Label 2: Bệnh đốm trắng
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
 Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 19993 ảnh
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171526388-c3f5a10c-a39e-44c8-9965-4eddb89f3443.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/171526388-c3f5a10c-a39e-44c8-9965-4eddb89f3443.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình . Bệnh đốm trắng.</a>
+<a style="text-align: center">Hình . Thống kê dữ liệu.</a>
 </p>
 <a name="training"></a>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171571978-47e80794-0c5a-45bd-aade-4ee1ca554d9c.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Thống kê dữ liệu.</a>
+</p>
+<a name="training"></a>
+
 # **4. TRAINING VÀ ĐÁNH GIÁ MODEL**
 ## **4.1 CẤU HÌNH TRAINING**
 <p align="center">
