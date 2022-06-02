@@ -24,7 +24,7 @@
 
 Input: Truyền vào một ảnh chứa một hoặc nhiều chiếc lá sầu riêng.
 
-Output: Trả về loại bệnh trên từng lá có trong bức ảnh đó.
+Output: Trả về loại bệnh trên từng lá có trong ảnh đó.
 ## **1.2 MÔ TẢ DỮ LIỆU**
 .....
 <a name="cacnghiencuu"></a>
@@ -67,7 +67,9 @@ Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường d�
 <br>
 <a style="text-align: center">Hình . Cấu trúc YOLOv4.</a>
 </p>
+
 ## **4.2 TRAINING MODEL**
+
 ### **4.2.1 YOLOv4**
 
 #### **4.2.1.1 SƠ LƯỢC VỀ YOLOv4**
