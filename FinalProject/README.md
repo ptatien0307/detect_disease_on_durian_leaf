@@ -53,7 +53,12 @@ Label 2: Bệnh đốm trắng
 </p>
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
-
+Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 19993 ảnh
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171526388-c3f5a10c-a39e-44c8-9965-4eddb89f3443.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Bệnh đốm trắng.</a>
+</p>
 <a name="training"></a>
 # **4. TRAINING VÀ ĐÁNH GIÁ MODEL**
 ## **4.1 CẤU HÌNH TRAINING**
@@ -99,13 +104,11 @@ Chỉnh sửa các thông số của model YOLOv4 trong file yolov4-custom.cfg:
 <a style="text-align: center">Hình . Cấu hình training.</a>
 </p>
 
-
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085414-aebb5e64-caea-455e-b2a3-f63bb8d2ccf3.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
 <a style="text-align: center">Hình . Cấu hình training.</a>
 </p>
-
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085453-0c938965-60a6-46ee-af31-846157f4d49c.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
@@ -166,3 +169,5 @@ Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh 
 [1] Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao, In YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv:2004.10934, 2020
 
 [2] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, In Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. arXiv:1506.01497, 2016
+
+[3] https://github.com/AlexeyAB/darknet
