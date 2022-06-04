@@ -99,7 +99,7 @@ YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves
 </p>
 
 #### **4.2.1.2 THIẾT LẬP TRAINING**
-* Chỉnh sửa các thông số của model YOLOv4 trong file yolov4-custom.cfg:
+* Thiết lập các thông số của model YOLOv4 trong file yolov4-custom.cfg:
 
     * batch: 64
     * subdivisions = 16
@@ -190,21 +190,25 @@ Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng b
 <a style="text-align: center">Hình . Chọn pretrained model.</a>
 </p>
 
-
-
 #### **4.2.2.3 TIẾN HÀNH TRAINING**
 
 ### **4.2.3 YOLOv5**
 #### **4.2.3.1 SƠ LƯỢC VỀ YOLOv5**
 YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu các bạn chưa biết thì 3 phiên bản YOLO đầu tiên được phát triển bởi Joseph Redmon. Sau đó, Alexey Bochkovskiy cho ra mắt YOLOv4 với sự cải thiện cả về tốc độ cũng như độ chính xác. Và rồi YOLOv5 được công bố gần đây với những so sánh ban đầu cho thấy độ chính xác tương đương YOLOv4 và có tốc độ nhanh hơn khi thực hiện dự đoán (tuy nhiên vẫn có rất nhiều hoài nghi về độ tin cậy của những so sánh này vì YOLOv5 mới được ra mắt trên GitHub chứ chưa có bài báo chính thức nào cả).
 #### **4.2.3.2 THIẾT LẬP TRAINING**
-Tạo file data.yaml như sau:
+* Tạo file data.yaml như sau:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991051-0de1c835-7ee9-464b-8067-034dc68f2434.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . File data.yaml.</a>
 </p>
 
+* Thiết lập training
+    * batch: 32
+    * img: 416
+    * epochs: 500
+* 
+#### **4.2.3.3 TIẾN HÀNH TRAINING**
 Tiến hành training
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991086-44dc560d-9a35-4317-8550-0dc2c5112aae.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -212,21 +216,12 @@ Tiến hành training
 <a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
 </p>
 
+* Trong quá trình train model các file trọng số được lưu lại:
+    * last.pt (Trọng số của interation mới nhất)
+    * best.pt (Trọng số tốt nhất)
 #### **4.2.3.3 KẾT QUẢ TRAINING**
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171990941-d218051d-e1b4-426a-8482-ef0736e319c3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả training.</a>
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171990965-e49ce9a9-4156-4be2-9111-a3f1da52cbd3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả training.</a>
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171990989-80a8ee42-9d65-465d-aab8-19440c7fac29.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172000457-29f43cd8-59c9-41ef-90b8-c802c7335518.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả training.</a>
 </p>
@@ -235,12 +230,7 @@ Tiến hành training
 ### **4.3.1 METRIC ĐÁNH GIÁ**
 .....
 ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171077401-840643c4-006a-4a92-a543-5a94039bae5d.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4.</a>
-</p>
-<a name="ungdung"></a>
+
 
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
