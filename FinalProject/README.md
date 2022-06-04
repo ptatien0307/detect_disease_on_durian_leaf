@@ -53,21 +53,23 @@ Label 2: Bệnh đốm trắng
 </p>
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
-Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 19993 ảnh
+* Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 19993 ảnh
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171526388-c3f5a10c-a39e-44c8-9965-4eddb89f3443.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu.</a>
 </p>
-<a name="training"></a>
 
+* Sau khi đã tăng cường dữ liệu
+    * Có 1472 object thuộc lớp ChayLa
+    * CÓ 2389 object thuộc lớp DomTrang
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171571978-47e80794-0c5a-45bd-aade-4ee1ca554d9c.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu.</a>
 </p>
-<a name="training"></a>
 
+<a name="training"></a>
 # **4. TRAINING VÀ ĐÁNH GIÁ MODEL**
 ## **4.1 CẤU HÌNH TRAINING**
 <p align="center">
@@ -81,9 +83,9 @@ Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường d�
 ### **4.2.1 YOLOv4**
 
 #### **4.2.1.1 SƠ LƯỢC VỀ YOLOv4**
-YOLO là một mô hình mạng CNN cho việc phát hiện, nhận dạng, phân loại đối tượng. YOLO được tạo ra từ việc kết hợp giữa các convolutional layers và connected layers. Trong đó các convolutional layers sẽ trích xuất ra các đặc trưng của ảnh, còn full-connected layers sẽ dự đoán ra xác suất đó và bounding box của đối tượng.
+* YOLO là một mô hình mạng CNN cho việc phát hiện, nhận dạng, phân loại đối tượng. YOLO được tạo ra từ việc kết hợp giữa các convolutional layers và connected layers. Trong đó các convolutional layers sẽ trích xuất ra các đặc trưng của ảnh, còn full-connected layers sẽ dự đoán ra xác suất đó và bounding box của đối tượng.
 
-YOLOv4 được giới thiệu bởi Alexey Bochoknovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao trong bài báo YOLOv4: Optimal Speed and Accuracy of Object Detection xuất bản ngày 23/4/2020 [1]
+* YOLOv4 được giới thiệu bởi Alexey Bochoknovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao trong bài báo YOLOv4: Optimal Speed and Accuracy of Object Detection xuất bản ngày 23/4/2020 [1]
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171307372-bb8b4868-4d3a-454c-adf5-eab1c939b085.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
@@ -91,7 +93,7 @@ YOLOv4 được giới thiệu bởi Alexey Bochoknovskiy, Chien-Yao Wang, and H
 <a style="text-align: center">Hình . So sánh performance YOLOv4.</a>
 </p>
 
-YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves YOLOv3’s AP and FPS by 10% and 12%, respectively. YOLOv4 can achive 43.5% AP (65.7% AP50) for the MS COCO dataset at a realtime speed of ∼65 FPS on Tesla V100
+* YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves YOLOv3’s AP and FPS by 10% and 12%, respectively. YOLOv4 can achive 43.5% AP (65.7% AP50) for the MS COCO dataset at a realtime speed of ∼65 FPS on Tesla V100
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171000673-06d74018-9757-4b93-aaab-23d96abfbdfe.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
@@ -161,15 +163,19 @@ YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves
     * yolov4-custom_last.weights (Trọng số của interation mới nhất)
     * yolov4-custom_best.weights (Trọng số tốt nhất)
     * Các file trọng số được lưu lại cứ mỗi 1000 iteration
-    
+* Cú pháp tiến hành training
+<p align="center">
+  ./darknet <đường dẫn file obj.data> <đường dẫn file config> <đường dẫn file trọng số>
+</p>
 * Tiến hành training lần đầu
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991176-1936258f-07f4-4844-a9f1-f455dfe2da71.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Tiến hành training YOLOv4.</a>
 </p>
 
-* Tiến tục training trên file trọng số mới nhất
+* Tiếp tục training trên file trọng số mới nhất
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991207-5fe5e8d8-46b7-4e08-9a18-a1e50510ccf9.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
@@ -179,9 +185,10 @@ YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves
 ### **4.2.2 FASTER R-CNN**
 
 #### **4.2.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
-Faster R-CNN là một mô hình single-stage, được giới thiệu bởi Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun trong bài báo Towards Real-Time Object Detection with Region Proposal Networks vào năm 2016
-Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là một sự kết hợp giữa Faster RCNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
-Bằng việc sử dụng RPN để tìm ra vùng có khả năng chứa đối tượng, Faster R-CNN đã tiết kiệm được nhiều thời gian hơn so với cách sử dụng thuật toán Selective Search 
+* Faster R-CNN là một mô hình single-stage, được giới thiệu bởi Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun trong bài báo Towards Real-Time Object Detection with Region Proposal Networks vào năm 2016
+* Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là một sự kết hợp giữa Faster RCNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
+* Bằng việc sử dụng RPN để tìm ra vùng có khả năng chứa đối tượng, Faster R-CNN đã tiết kiệm được nhiều thời gian hơn so với cách sử dụng thuật toán Selective Search 
+  
 #### **4.2.2.2 THIẾT LẬP TRAINING**
 Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng bài toán Object Detetion and Segmentation. Nhóm sử dụng X101-FPN là model pretrained để tiến hành huấn luyện trên tập dữ liệu mới.
 <p align="center">
@@ -207,11 +214,18 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
     * batch: 32
     * img: 416
     * epochs: 500
-* 
+* Tải file pretrained weights của model YOLOv5s
 #### **4.2.3.3 TIẾN HÀNH TRAINING**
-Tiến hành training
+* Tiến hành training lần đầu
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991086-44dc560d-9a35-4317-8550-0dc2c5112aae.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
+</p>
+
+* Tiếp tục training trên file trọng số mới nhất
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172000648-b14adb95-3681-4b23-a0ce-f5c16a53f6bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
 </p>
@@ -231,10 +245,10 @@ Tiến hành training
 .....
 ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
 
-
+<a name="thamkhao"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
-<a name="thamkhao"></a>
+  
 # **6. NGUỒN THAM KHẢO**
 [1] Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao, In YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv:2004.10934, 2020
 
