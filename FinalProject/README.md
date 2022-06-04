@@ -99,15 +99,15 @@ YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves
 </p>
 
 #### **4.2.1.2 THIẾT LẬP TRAINING**
-Chỉnh sửa các thông số của model YOLOv4 trong file yolov4-custom.cfg:
+* Chỉnh sửa các thông số của model YOLOv4 trong file yolov4-custom.cfg:
 
-* batch: 64
-* subdivisions = 16
-* max_batches = 4000 (Bằng số class * 2000)
-* steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches)
-* width = 416, height = 416 (Kích thước của ảnh)
-* classes = 2 (Số class)
-* filters = 21 (Tính theo công thức filters = (classes + 5) * 3)
+    * batch: 64
+    * subdivisions = 16
+    * max_batches = 4000 (Bằng số class * 2000)
+    * steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches)
+    * width = 416, height = 416 (Kích thước của ảnh)
+    * classes = 2 (Số class)
+    * filters = 21 (Tính theo công thức filters = (classes + 5) * 3)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085332-e76d9e1d-df86-479b-b7c9-fccec6f22831.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
@@ -126,28 +126,28 @@ Chỉnh sửa các thông số của model YOLOv4 trong file yolov4-custom.cfg:
 <a style="text-align: center">Hình . Cấu hình training.</a>
 </p>
 
-Tạo file obj.names chứa tên của các class
+* Tạo file obj.names chứa tên của các class
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171179582-4b6d2814-a50f-443d-800a-9e41e2942002.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
 <a style="text-align: center">Hình . File obj.names.</a>
 </p>
 
-Tạo file obj.data có nội dung như sau
+* Tạo file obj.data có nội dung như sau
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171179655-968ac023-d903-45e9-a1ec-916a9058096a.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
 <a style="text-align: center">Hình . File obj.data.</a>
 </p>
 
-Tạo file train.txt chứa đường dẫn tới các ảnh dùng để train
+* Tạo file train.txt chứa đường dẫn tới các ảnh dùng để train
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171178593-f2c535a0-5876-4586-8c0c-7b251b0a13c0.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . File train.txt.</a>
 </p>
 
-Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh giá trong quá trình train
+* Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh giá trong quá trình train
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171178723-d0e22c94-95e3-4148-bd30-3b7b6cad06c2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -155,11 +155,81 @@ Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh 
 <a style="text-align: center">Hình . File valid.txt.</a>
 </p>
 
+#### **4.2.1.3 TIẾN HÀNH TRAINING**
+* Nhóm sử dụng pretrained weights yolov4.conv.137 và tiến hành training lần đầu tiên
+* Trong quá trình train model các file trọng số được lưu lại:
+    * yolov4-custom_last.weights (Trọng số của interation mới nhất)
+    * yolov4-custom_best.weights (Trọng số tốt nhất)
+    * Các file trọng số được lưu lại cứ mỗi 1000 iteration
+    
+* Tiến hành training lần đầu
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171991176-1936258f-07f4-4844-a9f1-f455dfe2da71.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Tiến hành training YOLOv4.</a>
+</p>
+
+* Tiến tục training trên file trọng số mới nhất
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171991207-5fe5e8d8-46b7-4e08-9a18-a1e50510ccf9.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Tiếp tục training YOLOv4.</a>
+</p>
+
 ### **4.2.2 FASTER R-CNN**
 
 #### **4.2.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
-
+Faster R-CNN là một mô hình single-stage, được giới thiệu bởi Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun trong bài báo Towards Real-Time Object Detection with Region Proposal Networks vào năm 2016
+Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là một sự kết hợp giữa Faster RCNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
+Bằng việc sử dụng RPN để tìm ra vùng có khả năng chứa đối tượng, Faster R-CNN đã tiết kiệm được nhiều thời gian hơn so với cách sử dụng thuật toán Selective Search 
 #### **4.2.2.2 THIẾT LẬP TRAINING**
+Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng bài toán Object Detetion and Segmentation. Nhóm sử dụng X101-FPN là model pretrained để tiến hành huấn luyện trên tập dữ liệu mới.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171989700-e8dcac29-84ca-4ff4-9ee5-5b4159bbbcd2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Chọn pretrained model.</a>
+</p>
+
+
+
+#### **4.2.2.3 TIẾN HÀNH TRAINING**
+
+### **4.2.3 YOLOv5**
+#### **4.2.3.1 SƠ LƯỢC VỀ YOLOv5**
+YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu các bạn chưa biết thì 3 phiên bản YOLO đầu tiên được phát triển bởi Joseph Redmon. Sau đó, Alexey Bochkovskiy cho ra mắt YOLOv4 với sự cải thiện cả về tốc độ cũng như độ chính xác. Và rồi YOLOv5 được công bố gần đây với những so sánh ban đầu cho thấy độ chính xác tương đương YOLOv4 và có tốc độ nhanh hơn khi thực hiện dự đoán (tuy nhiên vẫn có rất nhiều hoài nghi về độ tin cậy của những so sánh này vì YOLOv5 mới được ra mắt trên GitHub chứ chưa có bài báo chính thức nào cả).
+#### **4.2.3.2 THIẾT LẬP TRAINING**
+Tạo file data.yaml như sau:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171991051-0de1c835-7ee9-464b-8067-034dc68f2434.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . File data.yaml.</a>
+</p>
+
+Tiến hành training
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171991086-44dc560d-9a35-4317-8550-0dc2c5112aae.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
+</p>
+
+#### **4.2.3.3 KẾT QUẢ TRAINING**
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171990941-d218051d-e1b4-426a-8482-ef0736e319c3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả training.</a>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171990965-e49ce9a9-4156-4be2-9111-a3f1da52cbd3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả training.</a>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/171990989-80a8ee42-9d65-465d-aab8-19440c7fac29.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả training.</a>
+</p>
 
 ## **4.3 ĐÁNH GIÁ MODEL**
 ### **4.3.1 METRIC ĐÁNH GIÁ**
