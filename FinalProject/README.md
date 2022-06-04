@@ -39,34 +39,46 @@ Output: Trả về loại bệnh trên từng lá có trong ảnh đó.
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
 .....
 ## **3.3 GÁN NHÃN DỮ LIỆU**
-Label 1: Bệnh cháy lá
+**Label 1: Bệnh cháy lá**
+* Bệnh cháy lá sầu riêng có thể phát sinh trên cả lá non và lá già, biểu hiện ban đầu là những đốm nhỏ, sũng nước, sau đó chúng liên kết lại thành mảng bất dạng nhũn nước hay phỏng nước sôi trên lá. Sau đó những đốm bệnh này khô đi và chuyển sang màu nâu sáng với rìa màu nâu tối khiến cho lá bị biến dạng và bị quăn lại.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171002992-38021761-1b44-4d33-b79d-3d6c4d14cd63.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Bệnh cháy lá.</a>
+<a style="text-align: center">Hình . Một số ví dụ về bệnh cháy lá.</a>
 </p>
-Label 2: Bệnh đốm trắng
+
+**Label 2: Bệnh đốm trắng**
+* Bệnh thường xuất hiện chủ yếu trên lá già trong những điều kiện độ ẩm cao, mật độ cây trong vườn dày đặc, rậm rạp. Đặc biệt xuất hiện ở giai đoạn trước và sau khi thu hoạch cho cây đang suy yếu trong thời gian mang trái. Lá bị bệnh thường có những đốm nhung có màu sắc giống như sắt rỉ hoặc màu vàng cam, một thời gian sau chuyển sang màu xanh xám. Những đốm này có thể tụ họp lại thành mảng lớn trên lá
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171003346-7fcb90d1-2dca-4df7-a45f-1c85d4cf9db8.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Bệnh đốm trắng.</a>
+<a style="text-align: center">Hình . Một số ví dụ về bệnh đốm lá.</a>
 </p>
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
-* Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 19993 ảnh
+* Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 2000 ảnh. Bộ dữ liệu sau đó được chia thành hai bộ train và test với tỉ lệ 7:3
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171526388-c3f5a10c-a39e-44c8-9965-4eddb89f3443.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172002598-7f736d9e-bf14-4a64-8c72-72b1bb125422.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu.</a>
 </p>
 
-* Sau khi đã tăng cường dữ liệu
+* Sau khi đã tăng cường dữ liệu có tổng số object là 3861, trong đó:
     * Có 1472 object thuộc lớp ChayLa
-    * CÓ 2389 object thuộc lớp DomTrang
+    * Có 2389 object thuộc lớp DomTrang
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171571978-47e80794-0c5a-45bd-aade-4ee1ca554d9c.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172002852-052a35e4-9192-4d28-accc-bf38ca053357.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu.</a>
+</p>
+
+* Tỉ lệ object ở bộ dữ liệu train và test
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172001821-949e068f-d401-47b4-9caa-2197a00fb04f.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Thống kê dữ liệu train và test.</a>
 </p>
 
 <a name="training"></a>
@@ -214,7 +226,13 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
     * batch: 32
     * img: 416
     * epochs: 500
-* Tải file pretrained weights của model YOLOv5s
+* Nhóm chọn pretrained model YOLOv5s để tiến hành huấn luyện
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172003627-13fc664d-bc19-4953-9ec9-e16a380eb72b.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
+</p>
+
 #### **4.2.3.3 TIẾN HÀNH TRAINING**
 * Tiến hành training lần đầu
 <p align="center">
