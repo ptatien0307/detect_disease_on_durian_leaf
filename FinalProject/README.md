@@ -20,11 +20,15 @@
 <a name="tongquan"></a>
 # **1. TỔNG QUAN VỀ ĐỒ ÁN** 
 ## **1.1 MÔ TẢ BÀI TOÁN**
-.....
+* Ngữ cảnh ứng dụng:
+    *
+    *
+    *
 
-Input: Truyền vào một ảnh chứa một hoặc nhiều chiếc lá sầu riêng.
 
-Output: Trả về loại bệnh trên từng lá có trong ảnh đó.
+* Input: 
+
+* Output:
 ## **1.2 MÔ TẢ DỮ LIỆU**
 .....
 <a name="cacnghiencuu"></a>
@@ -95,9 +99,12 @@ Output: Trả về loại bệnh trên từng lá có trong ảnh đó.
 ### **4.2.1 YOLOv4**
 
 #### **4.2.1.1 SƠ LƯỢC VỀ YOLOv4**
-* YOLO là một mô hình mạng CNN cho việc phát hiện, nhận dạng, phân loại đối tượng. YOLO được tạo ra từ việc kết hợp giữa các convolutional layers và connected layers. Trong đó các convolutional layers sẽ trích xuất ra các đặc trưng của ảnh, còn full-connected layers sẽ dự đoán ra xác suất đó và bounding box của đối tượng.
-
 * YOLOv4 được giới thiệu bởi Alexey Bochoknovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao trong bài báo YOLOv4: Optimal Speed and Accuracy of Object Detection xuất bản ngày 23/4/2020 [1]
+
+* YOLO là một mô hình mạng CNN cho việc phát hiện, nhận dạng, phân loại đối tượng. YOLO được tạo ra từ việc kết hợp giữa các convolutional layers và connected layers. Trong đó các convolutional layers sẽ trích xuất ra các đặc trưng của ảnh, còn full-connected layers sẽ dự đoán ra xác suất đó và bounding box của đối tượng. 
+
+* Hiện nay, yolov4 vẫn được đánh giá là một trong những model để xây dựng state-of-the-art objects detector tốt nhất.
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171307372-bb8b4868-4d3a-454c-adf5-eab1c939b085.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
@@ -179,6 +186,7 @@ Output: Trả về loại bệnh trên từng lá có trong ảnh đó.
 <p align="center">
   ./darknet <đường dẫn file obj.data> <đường dẫn file config> <đường dẫn file trọng số>
 </p>
+  
 * Tiến hành training lần đầu
 
 <p align="center">
@@ -243,9 +251,9 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 
 * Tiếp tục training trên file trọng số mới nhất
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172000648-b14adb95-3681-4b23-a0ce-f5c16a53f6bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172000648-b14adb95-3681-4b23-a0ce-f5c16a53f6bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
-<a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
+<a style="text-align: center">Hình . Tiếp tục training trên file trọng số mới nhất.</a>
 </p>
 
 * Trong quá trình train model các file trọng số được lưu lại:
@@ -260,9 +268,60 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 
 ## **4.3 ĐÁNH GIÁ MODEL**
 ### **4.3.1 METRIC ĐÁNH GIÁ**
-.....
-### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
+* Để đánh giá các model detector và cũng như để so sánh các model với nhau thì nhóm sẽ sử dụng thông số mAP (mean average precision), đặc biệt tập trung vô các chỉ số mAP như AP, AP50, AP75. mAP cũng là một các đánh giá phổ biển cho các model detector hiện nay.
+  
+* Trước khi vào phần đánh giá mAP, nhóm xin trình bày lại các khái niệm có liên quan trước:
+    * **IoU (Intersection Over Union)**: độ do overlap giữa các bbox, cụ thể là giữa grounth truth bounding box, bbox mà nhóm đã gán nhãn với bounding box mà mô hình dự đoán. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172040923-471cd707-b884-473f-a667-1ef56502d5bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . IOU.</a>
+</p>
+  
+* a
+    * Giá trị IoU sẽ có giá trị nằm trong đoạn [0,1]. Dựa vào đó có thể xác định được cái kết quả:
+        * **True Positive (TP)**: những bbox có IOU >= ngưỡng
+        * **False Positive (FP)**: những bbox có IOU < ngưỡng
+        * **False Negative (FN)**: những bbox model không dự đoán được 
+    * **Precision**: cho biết tỉ lệ bbox được dự đoán có IOU >= ngưỡng 
+    $$Precision = \frac{TP}{TP + FP} = \frac{TP}{All detections}$$
+    * **Recall**: cho biết tỉ lệ bbox được sự đoán có IOU >= ngưỡng trên tổng số ground-truth bbox 
+    $$Recall = \frac{TP}{TP + FN} = \frac{TP}{All ground-truth}$$
+    * Nếu có nhiều predicted bbox xếp chồng lên nhau trong cùng một ground-truth bbox thì ta sẽ chọn predicted bbox có IoU lớn nhất là TP, còn lại là FP   
+    * **AP (Average precision)**: là chỉ số được tính dựa trên precision và recall. Trong các bài toán detection, với mỗi chỉ số IOU khác nhau ta sẽ có chỉ số precision và recall khác nhau.
+Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nhau, ta sẽ có biểu đồ precision-recall curve (PR-Curve)
 
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172042729-471c39c1-4c9e-48df-8e38-fa5c0f8be627.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve.</a>
+</p>
+
+* a
+    * Khi đó AP sẽ là diện tích phần màu xanh nằm dưới PR-Curve. Khi đó mAP sẽ là trung bình các AP của tất cả các lớp.
+    * IoU có ý nghĩa quan trọng đối với chỉ số mAP và việc lựa chọn giá trị của IoU sẽ ảnh hưởng đến kết quả đánh giá của model. Khi ngưỡng IoU thay đổi Precision – Recall cũng thay đổi. Trong các bài toán detection, chúng ta tính toán chỉ số precision và recall với một ngưỡng IoU cho trước, ví dụ đơn giản nhất là nếu ta cho ngưỡng IoU bằng 0.4 và chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì ta tính rằng bbox được dự đoán đó là đúng, tuy nhiên nếu đặt ngưỡng IoU bằng 0.6 thì với chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì bbox được dự đoán đó là sai. Do đó, tại một giá trị IoU xác định,ta có thể do/đánh giá được mô hình một cách tốt nhất.
+### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
+<p align="center">
+<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4.</a>
+</p>
+  
+
+  
+<p align="center">
+<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
+</p>
+  
+<p align="center">
+<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
+</p>
+  
 <a name="thamkhao"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
