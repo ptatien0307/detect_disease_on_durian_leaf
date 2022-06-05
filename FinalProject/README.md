@@ -310,18 +310,45 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
   
 
   
+<div align="center">
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+</div>
+
+  
 <p align="center">
 <img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
 </p>
   
+<div align="center">
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+</div>
+
 <p align="center">
 <img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
 </p>
-  
+
+<div align="center">
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+</div>
 <a name="thamkhao"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
