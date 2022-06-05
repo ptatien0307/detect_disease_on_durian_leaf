@@ -21,9 +21,9 @@
 # **1. TỔNG QUAN VỀ ĐỒ ÁN** 
 ## **1.1 MÔ TẢ BÀI TOÁN**
 * Ngữ cảnh ứng dụng:
-    *
-    *
-    *
+    * ...
+    * ...
+    * ...
 
 
 * Input: 
@@ -312,11 +312,11 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
   
 <div align="center">
   
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Class    |      mAP@.5      |  mAP@.5:.95  |
+|----------|:----------------:| ------------:|
+| ChayLa   |  0.932           |  0.742       |
+| DomLa    |  0.924           |  0.703       |
+| all      |  0.928           |  0.723       |
   
 </div>
   
@@ -325,7 +325,7 @@ Bảng . Kết quả đánh giá model YOLOv4
 </p>
   
 <p align="center">
-<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172045479-f3b98206-55a2-4d3b-9c39-b701bdcb1b1e.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
 </p>
@@ -334,12 +334,14 @@ Bảng . Kết quả đánh giá model YOLOv4
   
 <div align="center">
   
-| Class    |      AP@50      |  Cool |
-|----------|:---------------:|------:|
-| ChayLa   |  left-aligned   | $1600 |
-| DomLa    |    centered     |   $12 |
-  
+| Class    |      mAP@.5      |  mAP@.5:.95  |
+|----------|:----------------:| ------------:|
+| ChayLa   |  0.932           |  0.742       |
+| DomLa    |  0.924           |  0.703       |
+| all      |  0.928           |  0.723       |
+
 </div>
+
 <p align="center">
 Bảng . Kết quả đánh giá model YOLOv5
 </p>
@@ -354,11 +356,11 @@ Bảng . Kết quả đánh giá model YOLOv5
  
 <div align="center">
   
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Class    |      mAP@.5      |  mAP@.5:.95  |
+|----------|:----------------:| ------------:|
+| ChayLa   |  0.932           |  0.742       |
+| DomLa    |  0.924           |  0.703       |
+| all      |  0.928           |  0.723       |
 
 </div>
   
