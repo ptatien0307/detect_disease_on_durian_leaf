@@ -311,15 +311,18 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 
   
 <div align="center">
-
+  
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
-
+  
 </div>
-
+  
+<p align="center">
+Bảng . Kết quả đánh giá model YOLOv4
+</p>
   
 <p align="center">
 <img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -327,21 +330,30 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
 </p>
   
-<div align="center">
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-</div>
 
+  
+<div align="center">
+  
+| Class    |      AP@50      |  Cool |
+|----------|:---------------:|------:|
+| ChayLa   |  left-aligned   | $1600 |
+| DomLa    |    centered     |   $12 |
+  
+</div>
+<p align="center">
+Bảng . Kết quả đánh giá model YOLOv5
+</p>
+  
 <p align="center">
 <img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
 </p>
 
+
+ 
 <div align="center">
+  
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
@@ -349,6 +361,10 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 | col 3 is | right-aligned |    $1 |
 
 </div>
+  
+<p align="center">
+Bảng . Kết quả đánh giá model Faster R-CNN
+</p>
 <a name="thamkhao"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
