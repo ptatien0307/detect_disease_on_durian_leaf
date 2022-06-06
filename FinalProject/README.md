@@ -312,11 +312,11 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
   
 <div align="center">
   
-| Class    |      mAP@.5      |  mAP@.5:.95  |
-|----------|:----------------:| ------------:|
-| ChayLa   |  0.932           |  0.742       |
-| DomLa    |  0.924           |  0.703       |
-| all      |  0.928           |  0.723       |
+| Class    |      mAP@.5      | 
+|----------|:----------------:| 
+| ChayLa   |  0.929           |  
+| DomLa    |  0.923           |  
+| all      |  0.926           |  
   
 </div>
   
@@ -325,7 +325,7 @@ Bảng . Kết quả đánh giá model YOLOv4
 </p>
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172045479-f3b98206-55a2-4d3b-9c39-b701bdcb1b1e.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172160564-d85c05ad-2fa6-4cc2-858f-df2ca72dccf6.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
 </p>
@@ -334,11 +334,11 @@ Bảng . Kết quả đánh giá model YOLOv4
   
 <div align="center">
   
-| Class    |      mAP@.5      |  mAP@.5:.95  |
-|----------|:----------------:| ------------:|
-| ChayLa   |  0.932           |  0.742       |
-| DomLa    |  0.924           |  0.703       |
-| all      |  0.928           |  0.723       |
+| Class    |      mAP@.5      |  
+|----------|:----------------:| 
+| ChayLa   |  0.932           |  
+| DomLa    |  0.924           |  
+| all      |  0.928           |  
 
 </div>
 
