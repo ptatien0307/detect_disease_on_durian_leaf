@@ -347,7 +347,7 @@ Bảng . Kết quả đánh giá model YOLOv5
 </p>
   
 <p align="center">
-<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172338486-62b41336-5c6d-4563-9762-a269467e3371.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
 </p>
@@ -356,11 +356,10 @@ Bảng . Kết quả đánh giá model YOLOv5
  
 <div align="center">
   
-| Class    |      mAP@.5      |  mAP@.5:.95  |
-|----------|:----------------:| ------------:|
-| ChayLa   |  0.932           |  0.742       |
-| DomLa    |  0.924           |  0.703       |
-| all      |  0.928           |  0.723       |
+| Class    |      mAP@.5      |  
+|----------|:----------------:|
+| ChayLa   |  0.733           |  
+| DomLa    |  0.655           |  
 
 </div>
   
