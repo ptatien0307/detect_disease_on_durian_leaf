@@ -358,8 +358,8 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 | Class    |      mAP@.5      |  
 |----------|:----------------:|
-| ChayLa   |  0.733           |  
-| DomLa    |  0.655           |  
+| ChayLa   |  0.              |  
+| DomLa    |  0.              |  
 
 </div>
   
@@ -367,6 +367,7 @@ Bảng . Kết quả đánh giá model YOLOv5
 Bảng . Kết quả đánh giá model Faster R-CNN
 </p>
 <a name="thamkhao"></a>
+  
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
   
