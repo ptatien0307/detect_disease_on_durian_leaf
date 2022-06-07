@@ -34,7 +34,7 @@
 <a name="cacnghiencuu"></a>
 # **2. CÁC NGHIÊN CỨU TRƯỚC ĐÓ**
 .....
-
+Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực máy học nói chung, các bài toán phân loại (classification) và nhận diện vật thể (object detection) có rất nhiều bài toán được đặt ra và đã được giải quyết. Những bài toán này được giải quyết bằng các mô hình machine learning và deep learning phổ biến như YOLO, VGG-16, Resnet-50 dựa trên kiến trúc mạng CNN (Convolutional Neural Network) và nhiều mô hình với các kiến trúc khác.
 <a name="dulieu"></a>
 # **3. XÂY DỰNG BỘ DỮ LIỆU**
 .....
@@ -303,18 +303,20 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
     * IoU có ý nghĩa quan trọng đối với chỉ số mAP và việc lựa chọn giá trị của IoU sẽ ảnh hưởng đến kết quả đánh giá của model. Khi ngưỡng IoU thay đổi Precision – Recall cũng thay đổi. Trong các bài toán detection, chúng ta tính toán chỉ số precision và recall với một ngưỡng IoU cho trước, ví dụ đơn giản nhất là nếu ta cho ngưỡng IoU bằng 0.4 và chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì ta tính rằng bbox được dự đoán đó là đúng, tuy nhiên nếu đặt ngưỡng IoU bằng 0.6 thì với chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì bbox được dự đoán đó là sai. Do đó, tại một giá trị IoU xác định,ta có thể do/đánh giá được mô hình một cách tốt nhất.
 ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172160564-d85c05ad-2fa6-4cc2-858f-df2ca72dccf6.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4.</a>
 </p>
+  
+
   
 <div align="center">
   
 | Class    |      mAP@.5      | 
 |----------|:----------------:| 
-| ChayLa   |  0.9290          |  
-| DomLa    |  0.9230          |  
-| all      |  0.9265          |  
+| ChayLa   |  0.929           |  
+| DomLa    |  0.923           |  
+| all      |  0.926           |  
   
 </div>
   
@@ -322,11 +324,8 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 Bảng . Kết quả đánh giá model YOLOv4
 </p>
   
-  
-  
-  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172384374-f2d05587-660d-45c1-90f4-c75cacbdab69.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172160564-d85c05ad-2fa6-4cc2-858f-df2ca72dccf6.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
 </p>
@@ -337,9 +336,9 @@ Bảng . Kết quả đánh giá model YOLOv4
   
 | Class    |      mAP@.5      |  
 |----------|:----------------:| 
-| ChayLa   |  0.9320          |  
-| DomLa    |  0.9240          |  
-| all      |  0.9280          |  
+| ChayLa   |  0.932           |  
+| DomLa    |  0.924           |  
+| all      |  0.928           |  
 
 </div>
 
@@ -348,7 +347,7 @@ Bảng . Kết quả đánh giá model YOLOv5
 </p>
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172383510-6763dbf3-3f50-484c-8f35-e8402ede8fbb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172338486-62b41336-5c6d-4563-9762-a269467e3371.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
 </p>
@@ -359,32 +358,15 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 | Class    |      mAP@.5      |  
 |----------|:----------------:|
-| ChayLa   |  0.9318          |  
-| DomLa    |  0.9152          |  
-| All      |  0.9235          |
+| ChayLa   |  0.              |  
+| DomLa    |  0.              |  
+
 </div>
   
 <p align="center">
 Bảng . Kết quả đánh giá model Faster R-CNN
 </p>
 <a name="thamkhao"></a>
-  
-  
-<div align="center">
-  
-| Class             |      mAP@.5      |  Precision      | Recall    |
-|-------------------|:----------------:|:---------------:|:---------:|
-| YOLOv4            |  0.9265          |  0.8700         |  0.9100   |
-| YOLOv5            |  0.9280          |  0.9190         |  0.8780   |
-| Faster R-CNN      |  0.9235          |  0.9240         |           |
-</div>
-  
-<p align="center">
-Bảng . So sánh
-</p>
-  
-  
-  
   
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 
