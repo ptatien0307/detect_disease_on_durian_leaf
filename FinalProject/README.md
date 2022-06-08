@@ -6,7 +6,7 @@
 
 <!-- Title -->
 <h1 align="center"><b>ĐỒ ÁN CUỐI KÌ</b></h1>
-<h1 align="center"><b>TÊN ĐỒ ÁN</b></h1>
+<h1 align="center"><b>PHÁT HIỆN MỘT SỐ LOẠI BỆNH TRÊN LÁ CÂY SẦU RIÊNG</b></h1>
 
 # **BẢNG MỤC LỤC**
 
