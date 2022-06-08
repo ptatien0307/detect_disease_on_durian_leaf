@@ -358,9 +358,9 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 | Class    |      mAP@.5      |  
 |----------|:----------------:|
-| ChayLa   |  0.              |  
-| DomLa    |  0.              |  
-
+| ChayLa   |  0.9318          |  
+| DomLa    |  0.9152          |  
+| All      |  0.9235          |  
 </div>
   
 <p align="center">
