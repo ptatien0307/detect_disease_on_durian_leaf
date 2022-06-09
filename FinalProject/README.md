@@ -121,14 +121,13 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 
 #### **4.2.1.2 THIẾT LẬP TRAINING**
 * Thiết lập các thông số của model YOLOv4 trong file yolov4-custom.cfg:
-
-    * batch: 64
-    * subdivisions = 16
-    * max_batches = 4000 (Bằng số class * 2000)
-    * steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches)
-    * width = 416, height = 416 (Kích thước của ảnh)
-    * classes = 2 (Số class)
-    * filters = 21 (Tính theo công thức filters = (classes + 5) * 3)
+    * batch = 64 `số lượng smaple cho một iteration`
+    * subdivisions = 16 `số block = batch / subdivisions để đưa vào GPU để sử lý song song`
+    * max_batches = 4000 (Bằng số class * 2000) `số iterations để training model`
+    * steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches) `learning rate sẽ được điều chỉnh sau 80%, 90% max_batches`
+    * width = 416, height = 416 `YOLOv4 sẽ resize ảnh trước khi cho vào mô hình`
+    * classes = 2 (Số class). Chỉnh sửa dòng classes=80 ở các layee [yolo]thành số lượng classes có trong dataset
+    * filters = 21. Chỉnh sửa dòng filter = 255 ở layer conv ngay trước layer [yolo] thành (số classes + 5) * 3) `số convolutional kernels có trong layer đó`
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085332-e76d9e1d-df86-479b-b7c9-fccec6f22831.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
@@ -155,6 +154,10 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 </p>
 
 * Tạo file obj.data có nội dung như sau
+    * Số classes có trong dataset
+    * File train.txt chứa các đường dẫn dẫn đến ảnh trong tập train
+    * File valid.txt chứa các đường dẫn dẫn đến ảnh trong tập test (valid)
+    * backup folder chứa file weights khi huấn luyện mô hình
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171179655-968ac023-d903-45e9-a1ec-916a9058096a.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
@@ -176,8 +179,14 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <a style="text-align: center">Hình . File valid.txt.</a>
 </p>
 
+* Dowload file pretrain weights (yolov4.conv.137) cho lần training model đầu tiên.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172792428-ef546faf-51c0-4a8e-9b9a-23bcdb18a780.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . File valid.txt.</a>
+</p>
+
 #### **4.2.1.3 TIẾN HÀNH TRAINING**
-* Nhóm sử dụng pretrained weights yolov4.conv.137 và tiến hành training lần đầu tiên
 * Trong quá trình train model các file trọng số được lưu lại:
     * yolov4-custom_last.weights (Trọng số của interation mới nhất)
     * yolov4-custom_best.weights (Trọng số tốt nhất)
@@ -195,7 +204,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <a style="text-align: center">Hình . Tiến hành training YOLOv4.</a>
 </p>
 
-* Tiếp tục training trên file trọng số mới nhất
+* Do giới hạn sử dụng GPU của google colab nên trong quá trình training cần dừng lại để chờ được cấp lại GPU. Tiếp tục training trên file trọng số mới nhất như sau:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991207-5fe5e8d8-46b7-4e08-9a18-a1e50510ccf9.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
@@ -231,9 +240,10 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 </p>
 
 * Thiết lập training
-    * batch: 32
-    * img: 416
-    * epochs: 500
+    * batch: 32 `số ảnh được xử lý trong 1 iteration`
+    * img: 416 `kích thước mà mô hình sẽ resize để xử lý`
+    * epochs: 500 `số iterations training`
+    * weights: pretrained weights của model được chọn sử dụng
 * Nhóm chọn pretrained model YOLOv5s để tiến hành huấn luyện
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172003627-13fc664d-bc19-4953-9ec9-e16a380eb72b.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
