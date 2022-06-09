@@ -33,8 +33,8 @@
 .....
 <a name="cacnghiencuu"></a>
 # **2. CÁC NGHIÊN CỨU TRƯỚC ĐÓ**
-.....
-Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực máy học nói chung, các bài toán phân loại (classification) và nhận diện vật thể (object detection) có rất nhiều bài toán được đặt ra và đã được giải quyết. Những bài toán này được giải quyết bằng các mô hình machine learning và deep learning phổ biến như YOLO, VGG-16, Resnet-50 dựa trên kiến trúc mạng CNN (Convolutional Neural Network) và nhiều mô hình với các kiến trúc khác.
+Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực máy học nói chung, các vấn đề phân loại (classification) và nhận diện vật thể (object detection) có trong rất nhiều bài toán đã được đặt ra và đã được giải quyết. Những bài toán này được giải quyết bằng các mô hình machine learning và deep learning phổ biến như YOLO, VGG-16, Resnet-50 dựa trên kiến trúc mạng CNN (Convolutional Neural Network) và nhiều mô hình với các kiến trúc khác.
+
 <a name="dulieu"></a>
 # **3. XÂY DỰNG BỘ DỮ LIỆU**
 .....
