@@ -312,21 +312,20 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
     * Khi đó AP sẽ là diện tích phần màu xanh nằm dưới PR-Curve. Khi đó mAP sẽ là trung bình các AP của tất cả các lớp.
     * IoU có ý nghĩa quan trọng đối với chỉ số mAP và việc lựa chọn giá trị của IoU sẽ ảnh hưởng đến kết quả đánh giá của model. Khi ngưỡng IoU thay đổi Precision – Recall cũng thay đổi. Trong các bài toán detection, chúng ta tính toán chỉ số precision và recall với một ngưỡng IoU cho trước, ví dụ đơn giản nhất là nếu ta cho ngưỡng IoU bằng 0.4 và chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì ta tính rằng bbox được dự đoán đó là đúng, tuy nhiên nếu đặt ngưỡng IoU bằng 0.6 thì với chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì bbox được dự đoán đó là sai. Do đó, tại một giá trị IoU xác định,ta có thể do/đánh giá được mô hình một cách tốt nhất.
 ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
+* YOLOv4
 <p align="center">
-<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172799457-64d9c25c-f73b-46d4-90de-f2423778d767.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4.</a>
 </p>
   
-
-  
 <div align="center">
   
-| Class    |      mAP@.5      | 
-|----------|:----------------:| 
-| ChayLa   |  0.929           |  
-| DomLa    |  0.923           |  
-| all      |  0.926           |  
+| Class    |      AP50         | 
+|----------|:-----------------:| 
+| ChayLa   |  0.9290           |  
+| DomLa    |  0.9230           |  
+| all      |  0.9260           |  
   
 </div>
   
@@ -334,21 +333,22 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 Bảng . Kết quả đánh giá model YOLOv4
 </p>
   
+  
+* YOLOv5
+  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172160564-d85c05ad-2fa6-4cc2-858f-df2ca72dccf6.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172799618-b4f8c709-935e-4a6d-90ab-5ecbc04d1f1f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
 </p>
-  
 
-  
 <div align="center">
   
-| Class    |      mAP@.5      |  
+| Class    |      AP50        |  
 |----------|:----------------:| 
-| ChayLa   |  0.932           |  
-| DomLa    |  0.924           |  
-| all      |  0.928           |  
+| ChayLa   |  0.9320          |  
+| DomLa    |  0.9240          |  
+| all      |  0.9280          |  
 
 </div>
 
@@ -356,21 +356,21 @@ Bảng . Kết quả đánh giá model YOLOv4
 Bảng . Kết quả đánh giá model YOLOv5
 </p>
   
+  
+* Faster R-CNN
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172338486-62b41336-5c6d-4563-9762-a269467e3371.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/172802341-ab42bec4-fa5e-4495-a741-c5f1432e1b64.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
 </p>
 
-
- 
 <div align="center">
   
-| Class    |      mAP@.5      |  
-|----------|:----------------:|
-| ChayLa   |  0.9318          |  
-| DomLa    |  0.9152          |  
-| All      |  0.9235          |  
+| Class       |      AP50        |  
+|-------------|:----------------:|
+| ChayLa      |  0.9318          |  
+| DomTrang    |  0.9152          |  
+| All         |  0.9235          |  
 </div>
   
 <p align="center">
@@ -378,6 +378,19 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 </p>
 <a name="thamkhao"></a>
   
+  
+  
+* Tổng kết đánh giá AP50
+ <div align="center">
+  
+| Class            |      ChayLa      |     DomTrang     |     All     |
+|------------------|:----------------:|:----------------:|:-----------:|
+| YOLOv4           |  0.9299          |  0.9230          |  0.9260     |
+| YOLOv5           |  <ins>0.9320          |  0.9240          |  0.9280     |
+| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235     |
+</div>
+  
+
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 * **Cách cải tiến:**
     * Về dữ liệu:
