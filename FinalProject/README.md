@@ -322,11 +322,10 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <div align="center">
   
 | Class    |      AP50         | 
-|----------|:-----------------:| 
-| ChayLa   |  0.9299           |  
+|----------|:-----------------:|
+| ChayLa   |  0.9299           | 
 | DomLa    |  0.9230           |  
-| all      |  0.9264           |  
-  
+
 </div>
   
 <p align="center">
@@ -348,7 +347,6 @@ Bảng . Kết quả đánh giá model YOLOv4
 |----------|:----------------:| 
 | ChayLa   |  0.9320          |  
 | DomLa    |  0.9240          |  
-| all      |  0.9280          |  
 
 </div>
 
@@ -370,7 +368,6 @@ Bảng . Kết quả đánh giá model YOLOv5
 |-------------|:----------------:|
 | ChayLa      |  0.9318          |  
 | DomTrang    |  0.9152          |  
-| All         |  0.9235          |  
 </div>
   
 <p align="center">
@@ -383,11 +380,11 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 * Tổng kết đánh giá AP50
  <div align="center">
   
-| Class            |      ChayLa      |     DomTrang     |     All       |
-|------------------|:----------------:|:----------------:|:-------------:|
-| YOLOv4           |  0.9299          |  0.9230          |  0.9264       |
-| YOLOv5           |  <ins>0.9320     |  <ins>0.9240     |  <ins>0.9280  |
-| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235       |
+| Class            |      ChayLa      |     DomTrang     |     All       |Precision     |Recall     |mAP@0.5     |
+|------------------|:----------------:|:----------------:|:-------------:|:------------:|:---------:|:----------:|
+| YOLOv4           |  0.9299          |  0.9230          |  0.9264       |0.910         |0.870      |0.9265      |
+| YOLOv5           |  <ins>0.9320     |  <ins>0.9240     |  <ins>0.9280  |0.919         |0.878      |0.9280      | 
+| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235       |0.924         |           |0.9235      |
 </div>
   
 
