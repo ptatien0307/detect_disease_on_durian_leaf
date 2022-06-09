@@ -323,9 +323,9 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
   
 | Class    |      AP50         | 
 |----------|:-----------------:| 
-| ChayLa   |  0.9290           |  
+| ChayLa   |  0.9299           |  
 | DomLa    |  0.9230           |  
-| all      |  0.9260           |  
+| all      |  0.9264           |  
   
 </div>
   
@@ -383,11 +383,11 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 * Tổng kết đánh giá AP50
  <div align="center">
   
-| Class            |      ChayLa      |     DomTrang     |     All     |
-|------------------|:----------------:|:----------------:|:-----------:|
-| YOLOv4           |  0.9299          |  0.9230          |  0.9260     |
-| YOLOv5           |  <ins>0.9320          |  0.9240          |  0.9280     |
-| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235     |
+| Class            |      ChayLa      |     DomTrang     |     All       |
+|------------------|:----------------:|:----------------:|:-------------:|
+| YOLOv4           |  0.9299          |  0.9230          |  0.9264       |
+| YOLOv5           |  <ins>0.9320     |  <ins>0.9240     |  <ins>0.9280  |
+| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235       |
 </div>
   
 
