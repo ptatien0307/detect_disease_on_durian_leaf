@@ -60,7 +60,9 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 </p>
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
-* Bộ dữ liệu gốc bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 2000 ảnh. Bộ dữ liệu sau đó được chia thành hai bộ train và test với tỉ lệ 7:3
+* Bộ dữ liệu:
+    * train: bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 2000 ảnh. 
+    * test: 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172002598-7f736d9e-bf14-4a64-8c72-72b1bb125422.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
@@ -68,7 +70,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <a style="text-align: center">Hình . Thống kê dữ liệu.</a>
 </p>
 
-* Sau khi đã tăng cường dữ liệu có tổng số object là 3861, trong đó:
+* Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3861, trong đó:
     * Có 1472 object thuộc lớp ChayLa
     * Có 2389 object thuộc lớp DomTrang
 
@@ -76,13 +78,6 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <img src="https://user-images.githubusercontent.com/79583501/172002852-052a35e4-9192-4d28-accc-bf38ca053357.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu.</a>
-</p>
-
-* Tỉ lệ object ở bộ dữ liệu train và test
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172001821-949e068f-d401-47b4-9caa-2197a00fb04f.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
-<br>
-<a style="text-align: center">Hình . Thống kê dữ liệu train và test.</a>
 </p>
 
 <a name="training"></a>
