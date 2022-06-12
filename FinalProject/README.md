@@ -399,4 +399,8 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 
 [2] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, In Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. arXiv:1506.01497, 2016
 
-[3] https://github.com/AlexeyAB/darknet
+[3] Alexey. 2021. darknet. GitHub; [2022]. https://github.com/AlexeyAB/darknet
+
+[4] Jacob Solawetz. "How to Train Detectron2 on Custom Object Detection Data", roboflow, https://blog.roboflow.com/how-to-train-detectron2/. [2022]
+   
+[5] Roboflow. 2021. yolov5-custom-training-tutorial. GitHub; [2022] https://github.com/roboflow-ai/yolov5-custom-training-tutorial
