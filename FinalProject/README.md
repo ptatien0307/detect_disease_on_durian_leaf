@@ -405,6 +405,6 @@ Bảng . Kết quả đánh giá model Faster R-CNN
    
 [5] Roboflow. 2021. yolov5-custom-training-tutorial. GitHub; [2022] https://github.com/roboflow-ai/yolov5-custom-training-tutorial
 
-[6] Agridrone. "Bệnh cháy lá sầu riêng nguyên nhân và cách phòng trừ". Adgidrone, https://agridrone.vn/benh-chay-la-sau-rieng/#:~:text=B%E1%BB%87nh%20ch%C3%A1y%20l%C3%A1%20s%E1%BA%A7u%20ri%C3%AAng%20c%C3%B3%20th%E1%BB%83%20ph%C3%A1t%20sinh%20tr%C3%AAn,d%E1%BA%A1ng%20v%C3%A0%20b%E1%BB%8B%20qu%C4%83n%20l%E1%BA%A1i. [2022]
+[6] Agridrone. "Bệnh cháy lá sầu riêng nguyên nhân và cách phòng trừ". Adgidrone. [2022]
    
-[7] Agridrone. "Bệnh đốm lá trên cây sầu riêng". Adgidrone, [https://agridrone.vn/benh-chay-la-saurieng/#:~:text=B%E1%BB%87nh%20ch%C3%A1y%20l%C3%A1%20s%E1%BA%A7u%20ri%C3%AAng%20c%C3%B3%20th%E1%BB%83%20ph%C3%A1t%20sinh%20tr%C3%AAn,d%E1%BA%A1ng%20v%C3%A0%20b%E1%BB%8B%20qu%C4%83n%20l%E1%BA%A1i](https://agridrone.vn/benh-dom-la-tren-cay-sau rieng/#:~:text=B%E1%BB%87nh%20%C4%91%E1%BB%91m%20l%C3%A1%20s%E1%BA%A7u%20ri%C3%AAng%20l%C3%A0%20b%E1%BB%87nh%20do%20n%E1%BA%A5m%20Phomopsis,nh%E1%BB%AFng%20v%C6%B0%E1%BB%9Dn%20c%C3%A2y%20l%E1%BB%9Bn%20tu%E1%BB%95i.). [2022]
+[7] Agridrone. "Bệnh đốm lá trên cây sầu riêng". Adgidrone. [2022]
