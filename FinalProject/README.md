@@ -409,6 +409,8 @@ Bảng . Kết quả đánh giá model Faster R-CNN
         * Áp dụng một số kỹ thuật như thay đổi cấu trúc mô hình, tùy chỉnh tham số để có thể cải thiện mô hình hơn
 * **Hướng phát triển:**
     * Hướng tới việc phát hiện các loại bệnh trên nhiều loại lá cây trồng khác nhau dựa trên các đặc điểm giống nhau của các loại bệnh khi xuất hiện trên lá.
+   
+<a name="thamkhao"></a>
 # **6. NGUỒN THAM KHẢO**
 [1] Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao, In YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv:2004.10934, 2020
 
