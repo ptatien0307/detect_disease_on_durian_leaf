@@ -29,6 +29,20 @@
 * Input: 
 
 * Output:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173473224-71645756-2cd7-4338-b7d2-f6be40182d81.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về input và output ChayLa.</a>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173473511-27444508-db74-4f58-a8c0-8f410b06a990.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về input và output DomTrang.</a>
+</p>
+
+
 ## **1.2 MÔ TẢ DỮ LIỆU**
 .....
 <a name="cacnghiencuu"></a>
