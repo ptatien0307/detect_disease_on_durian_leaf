@@ -397,6 +397,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 </div>
   
 
+<a name="ungdung"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 * **Cách cải tiến:**
     * Về dữ liệu:
