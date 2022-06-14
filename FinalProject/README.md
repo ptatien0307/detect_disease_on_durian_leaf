@@ -25,21 +25,20 @@
     * ...
     * ...
 
+* Input: Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
 
-* Input: 
-
-* Output:
+* Output: Một tấm ảnh với bounding box bao quanh lá bị bệnh và tên loại bệnh
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173473224-71645756-2cd7-4338-b7d2-f6be40182d81.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về input và output ChayLa.</a>
+<a style="text-align: center">Hình . Ví dụ về input và output ChayLa</a>
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173473511-27444508-db74-4f58-a8c0-8f410b06a990.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về input và output DomTrang.</a>
+<a style="text-align: center">Hình . Ví dụ về input và output DomTrang</a>
 </p>
 
 
@@ -57,12 +56,32 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
 .....
 ## **3.3 GÁN NHÃN DỮ LIỆU**
+Nhóm sử dụng Roboflow để gán nhãn dữ liệu
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173475500-dca5d64a-a847-49e2-8952-303a810da625.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Gán nhãn dữ liệu</a>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173480508-75503845-a466-4487-9369-562ee2b33e97.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Format label YOLO</a>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173480424-d62191c2-7cf8-42dc-8ac9-087d52da1812.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Format label COCO</a>
+</p>
+
+
 **Label 1: Bệnh cháy lá**
 * Bệnh cháy lá sầu riêng có thể phát sinh trên cả lá non và lá già, biểu hiện ban đầu là những đốm nhỏ, sũng nước, sau đó chúng liên kết lại thành mảng bất dạng nhũn nước hay phỏng nước sôi trên lá. Sau đó những đốm bệnh này khô đi và chuyển sang màu nâu sáng với rìa màu nâu tối khiến cho lá bị biến dạng và bị quăn lại.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171002992-38021761-1b44-4d33-b79d-3d6c4d14cd63.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Một số ví dụ về bệnh cháy lá.</a>
+<a style="text-align: center">Hình . Một số ví dụ về bệnh cháy lá</a>
 </p>
 
 **Label 2: Bệnh đốm trắng**
@@ -70,7 +89,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171003346-7fcb90d1-2dca-4df7-a45f-1c85d4cf9db8.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Một số ví dụ về bệnh đốm lá.</a>
+<a style="text-align: center">Hình . Một số ví dụ về bệnh đốm lá</a>
 </p>
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
@@ -81,7 +100,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172002598-7f736d9e-bf14-4a64-8c72-72b1bb125422.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình . Thống kê dữ liệu.</a>
+<a style="text-align: center">Hình . Thống kê dữ liệu</a>
 </p>
 
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3861, trong đó:
@@ -91,7 +110,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172002852-052a35e4-9192-4d28-accc-bf38ca053357.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình . Thống kê dữ liệu.</a>
+<a style="text-align: center">Hình . Thống kê dữ liệu</a>
 </p>
 
 <a name="training"></a>
@@ -100,7 +119,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171001486-19287188-83ef-42b0-98ce-981c36e2c36b.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu trúc YOLOv4.</a>
+<a style="text-align: center">Hình . Cấu trúc YOLOv4</a>
 </p>
 
 ## **4.2 TRAINING MODEL**
@@ -118,14 +137,14 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171307372-bb8b4868-4d3a-454c-adf5-eab1c939b085.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình . So sánh performance YOLOv4.</a>
+<a style="text-align: center">Hình . So sánh performance YOLOv4</a>
 </p>
 
 * YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves YOLOv3’s AP and FPS by 10% and 12%, respectively. YOLOv4 can achive 43.5% AP (65.7% AP50) for the MS COCO dataset at a realtime speed of ∼65 FPS on Tesla V100
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171000673-06d74018-9757-4b93-aaab-23d96abfbdfe.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu trúc YOLOv4.</a>
+<a style="text-align: center">Hình . Cấu trúc YOLOv4</a>
 </p>
 
 #### **4.2.1.2 THIẾT LẬP TRAINING**
@@ -140,26 +159,26 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085332-e76d9e1d-df86-479b-b7c9-fccec6f22831.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu hình training.</a>
+<a style="text-align: center">Hình . Cấu hình training</a>
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085414-aebb5e64-caea-455e-b2a3-f63bb8d2ccf3.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu hình training.</a>
+<a style="text-align: center">Hình . Cấu hình training</a>
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085453-0c938965-60a6-46ee-af31-846157f4d49c.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu hình training.</a>
+<a style="text-align: center">Hình . Cấu hình training</a>
 </p>
 
 * Tạo file obj.names chứa tên của các class
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171179582-4b6d2814-a50f-443d-800a-9e41e2942002.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
-<a style="text-align: center">Hình . File obj.names.</a>
+<a style="text-align: center">Hình . File obj.names</a>
 </p>
 
 * Tạo file obj.data có nội dung như sau
@@ -170,14 +189,14 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171179655-968ac023-d903-45e9-a1ec-916a9058096a.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
-<a style="text-align: center">Hình . File obj.data.</a>
+<a style="text-align: center">Hình . File obj.data</a>
 </p>
 
 * Tạo file train.txt chứa đường dẫn tới các ảnh dùng để train
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171178593-f2c535a0-5876-4586-8c0c-7b251b0a13c0.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . File train.txt.</a>
+<a style="text-align: center">Hình . File train.txt</a>
 </p>
 
 * Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh giá trong quá trình train
@@ -185,14 +204,14 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171178723-d0e22c94-95e3-4148-bd30-3b7b6cad06c2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . File valid.txt.</a>
+<a style="text-align: center">Hình . File valid.txt</a>
 </p>
 
 * Dowload file pretrain weights (yolov4.conv.137) cho lần training model đầu tiên.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172792428-ef546faf-51c0-4a8e-9b9a-23bcdb18a780.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . File valid.txt.</a>
+<a style="text-align: center">Hình . File valid.txt</a>
 </p>
 
 #### **4.2.1.3 TIẾN HÀNH TRAINING**
@@ -210,14 +229,14 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991176-1936258f-07f4-4844-a9f1-f455dfe2da71.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Tiến hành training YOLOv4.</a>
+<a style="text-align: center">Hình . Tiến hành training YOLOv4</a>
 </p>
 
 * Do giới hạn sử dụng GPU của google colab nên trong quá trình training cần dừng lại để chờ được cấp lại GPU. Tiếp tục training trên file trọng số mới nhất như sau:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991207-5fe5e8d8-46b7-4e08-9a18-a1e50510ccf9.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Tiếp tục training YOLOv4.</a>
+<a style="text-align: center">Hình . Tiếp tục training YOLOv4</a>
 </p>
 
 ### **4.2.2 FASTER R-CNN**
@@ -232,7 +251,7 @@ Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng b
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171989700-e8dcac29-84ca-4ff4-9ee5-5b4159bbbcd2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Chọn pretrained model.</a>
+<a style="text-align: center">Hình . Chọn pretrained model</a>
 </p>
 
 #### **4.2.2.3 TIẾN HÀNH TRAINING**
@@ -245,7 +264,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991051-0de1c835-7ee9-464b-8067-034dc68f2434.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . File data.yaml.</a>
+<a style="text-align: center">Hình . File data.yaml</a>
 </p>
 
 * Thiết lập training
@@ -257,7 +276,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172003627-13fc664d-bc19-4953-9ec9-e16a380eb72b.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
+<a style="text-align: center">Hình . Tiến hành training YOLOv5</a>
 </p>
 
 #### **4.2.3.3 TIẾN HÀNH TRAINING**
@@ -265,14 +284,14 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991086-44dc560d-9a35-4317-8550-0dc2c5112aae.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Tiến hành training YOLOv5.</a>
+<a style="text-align: center">Hình . Tiến hành training YOLOv5</a>
 </p>
 
 * Tiếp tục training trên file trọng số mới nhất
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172000648-b14adb95-3681-4b23-a0ce-f5c16a53f6bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
-<a style="text-align: center">Hình . Tiếp tục training trên file trọng số mới nhất.</a>
+<a style="text-align: center">Hình . Tiếp tục training trên file trọng số mới nhất</a>
 </p>
 
 * Trong quá trình train model các file trọng số được lưu lại:
@@ -282,7 +301,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172000457-29f43cd8-59c9-41ef-90b8-c802c7335518.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Kết quả training.</a>
+<a style="text-align: center">Hình . Kết quả training</a>
 </p>
 
 ## **4.3 ĐÁNH GIÁ MODEL**
@@ -294,7 +313,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172040923-471cd707-b884-473f-a667-1ef56502d5bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . IOU.</a>
+<a style="text-align: center">Hình . IOU</a>
 </p>
   
 * a
@@ -314,7 +333,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172042729-471c39c1-4c9e-48df-8e38-fa5c0f8be627.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve.</a>
+<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve</a>
 </p>
 
 * a
@@ -325,7 +344,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172799457-64d9c25c-f73b-46d4-90de-f2423778d767.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4.</a>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4</a>
 </p>
   
 <div align="center">
@@ -347,7 +366,7 @@ Bảng . Kết quả đánh giá model YOLOv4
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172799618-b4f8c709-935e-4a6d-90ab-5ecbc04d1f1f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5.</a>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5</a>
 </p>
 
 <div align="center">
@@ -368,7 +387,7 @@ Bảng . Kết quả đánh giá model YOLOv5
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172802341-ab42bec4-fa5e-4495-a741-c5f1432e1b64.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN.</a>
+<a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
 </p>
 
 <div align="center">
@@ -427,3 +446,5 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 [7] Agridrone. "Bệnh đốm lá trên cây sầu riêng". Adgidrone. [2022]
    
 [8] Ultralytics. 2022. yolov5. GitHub. https://github.com/ultralytics/yolov5 [2022]
+
+[9] Roboflow. https://roboflow.com/ 
