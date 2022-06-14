@@ -425,3 +425,5 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 [6] Agridrone. "Bệnh cháy lá sầu riêng nguyên nhân và cách phòng trừ". Adgidrone. [2022]
    
 [7] Agridrone. "Bệnh đốm lá trên cây sầu riêng". Adgidrone. [2022]
+   
+[8] Ultralytics. 2022. yolov5. GitHub. https://github.com/ultralytics/yolov5 [2022]
