@@ -475,7 +475,7 @@ Bảng . Kết quả đánh giá model YOLOv4
 * YOLOv5
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/173866891-8cbe2b82-e645-44d8-8e5c-116e7d6a2223.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/173869341-ac8f1ebe-28f6-4c6a-bffa-006a4df9e852.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5</a>
 </p>
