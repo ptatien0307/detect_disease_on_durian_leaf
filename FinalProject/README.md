@@ -448,3 +448,80 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 [8] Ultralytics. 2022. yolov5. GitHub. https://github.com/ultralytics/yolov5 [2022]
 
 [9] Roboflow. https://roboflow.com/ 
+
+   
+   ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
+* YOLOv4
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173839177-62f28b65-7a35-4667-adb9-145e4204c202.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4</a>
+</p>
+  
+<div align="center">
+  
+| Class    |      AP50         | 
+|----------|:-----------------:|
+| ChayLa   |  0.           | 
+| DomLa    |  0.           |  
+
+</div>
+  
+<p align="center">
+Bảng . Kết quả đánh giá model YOLOv4
+</p>
+  
+  
+* YOLOv5
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172799618-b4f8c709-935e-4a6d-90ab-5ecbc04d1f1f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5</a>
+</p>
+
+<div align="center">
+  
+| Class    |      AP50        |  
+|----------|:----------------:| 
+| ChayLa   |  0.9320          |  
+| DomLa    |  0.9240          |  
+
+</div>
+
+<p align="center">
+Bảng . Kết quả đánh giá model YOLOv5
+</p>
+  
+  
+* Faster R-CNN
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/172802341-ab42bec4-fa5e-4495-a741-c5f1432e1b64.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
+</p>
+
+<div align="center">
+  
+| Class       |      AP50        |  
+|-------------|:----------------:|
+| ChayLa      |  0.9318          |  
+| DomTrang    |  0.9152          |  
+</div>
+  
+<p align="center">
+Bảng . Kết quả đánh giá model Faster R-CNN
+</p>
+<a name="thamkhao"></a>
+  
+  
+  
+* Tổng kết đánh giá AP50
+ <div align="center">
+  
+| Class            |      ChayLa      |     DomTrang     |     All       |Precision          |Recall     |mAP@0.5          |
+|------------------|:----------------:|:----------------:|:-------------:|:-----------------:|:---------:|:---------------:|
+| YOLOv4           |  0.9299          |  0.9230          |  0.9264       |0.910              |0.870      |0.9265           |
+| YOLOv5           |  <ins>0.9320     |  <ins>0.9240     |  <ins>0.9280  |0.919              |0.878      |<ins>0.9280      | 
+| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235       |<ins>0.924         |           |0.9235           |
+</div>
