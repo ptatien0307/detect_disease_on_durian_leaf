@@ -475,7 +475,7 @@ Bảng . Kết quả đánh giá model YOLOv4
 * YOLOv5
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172799618-b4f8c709-935e-4a6d-90ab-5ecbc04d1f1f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/173866891-8cbe2b82-e645-44d8-8e5c-116e7d6a2223.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5</a>
 </p>
@@ -484,8 +484,8 @@ Bảng . Kết quả đánh giá model YOLOv4
   
 | Class    |      AP50        |  
 |----------|:----------------:| 
-| ChayLa   |  0.9320          |  
-| DomLa    |  0.9240          |  
+| ChayLa   |  0.          |  
+| DomLa    |  0.          |  
 
 </div>
 
@@ -507,8 +507,8 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 | Class       |      AP50        |  
 |-------------|:----------------:|
-| ChayLa      |  0.9318          |  
-| DomTrang    |  0.9152          |  
+| ChayLa      |  0.          |  
+| DomTrang    |  0.          |  
 </div>
   
 <p align="center">
@@ -523,7 +523,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
   
 | Class            |      ChayLa      |     DomTrang     |     All       |Precision          |Recall     |mAP@0.5          |
 |------------------|:----------------:|:----------------:|:-------------:|:-----------------:|:---------:|:---------------:|
-| YOLOv4           |  0.9299          |  0.9230          |  0.9264       |0.910              |0.870      |0.9265           |
-| YOLOv5           |  <ins>0.9320     |  <ins>0.9240     |  <ins>0.9280  |0.919              |0.878      |<ins>0.9280      | 
-| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235       |<ins>0.924         |           |0.9235           |
+| YOLOv4           |  0.          |  0.          |  0.       |0.              |0.      |0.           |
+| YOLOv5           |  <ins>0.     |  <ins>0.     |  <ins>0.  |0.              |0.      |<ins>0.      | 
+| Faster R-CNN     |  0.          |  0.          |  0.       |<ins>0.         |           |0.           |
 </div>
