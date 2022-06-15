@@ -501,6 +501,8 @@ Bảng . Kết quả đánh giá model YOLOv5
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
 </p>
 
+0.033 
+  
 <div align="center">
   
 | Class       |      AP50        |  
