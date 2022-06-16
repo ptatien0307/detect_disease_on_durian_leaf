@@ -507,8 +507,8 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 | Class       |      AP50        |  
 |-------------|:----------------:|
-| ChayLa      |  0.5130          |  
-| DomTrang    |  0.5283          |  
+| ChayLa      |  0.          |  
+| DomTrang    |  0.          |  
 </div>
   
 <p align="center">
@@ -521,9 +521,9 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 * Tổng kết đánh giá AP50
  <div align="center">
   
-| Class            |      ChayLa      |     DomTrang     |     All       |Precision          |Recall     |mAP@0.5          |
-|------------------|:----------------:|:----------------:|:-------------:|:-----------------:|:---------:|:---------------:|
-| YOLOv4           |  0.          |  0.          |  0.       |0.              |0.      |0.           |
-| YOLOv5           |  <ins>0.     |  <ins>0.     |  <ins>0.  |0.              |0.      |<ins>0.      | 
+| Class            |      ChayLa      |     DomTrang     |     All       |Precision           |Recall      |
+|------------------|:----------------:|:----------------:|:-------------:|:------------------:|:----------:|
+| YOLOv4           |  0.6551          |  0.6135          |  0.6343       |0.9200              |0.5800      |
+| YOLOv5           |  <ins>0.6680     |  <ins>0.7400     |  <ins>0.704   |0.8390              |0.539       |
 | Faster R-CNN     |  0.          |  0.          |  0.       |<ins>0.         |           |0.           |
 </div>
