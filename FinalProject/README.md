@@ -385,7 +385,7 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 * Faster R-CNN
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/173853706-6c0132cb-13fa-4ec1-b78d-2c695a79982c.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/174094457-d19dd010-ae83-402d-8406-bffabf58ec8e.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
 </p>
