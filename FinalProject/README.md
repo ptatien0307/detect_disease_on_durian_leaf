@@ -342,117 +342,6 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
 * YOLOv4
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172799457-64d9c25c-f73b-46d4-90de-f2423778d767.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4</a>
-</p>
-  
-<div align="center">
-  
-| Class    |      AP50         | 
-|----------|:-----------------:|
-| ChayLa   |  0.9299           | 
-| DomLa    |  0.9230           |  
-
-</div>
-  
-<p align="center">
-Bảng . Kết quả đánh giá model YOLOv4
-</p>
-  
-  
-* YOLOv5
-  
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172799618-b4f8c709-935e-4a6d-90ab-5ecbc04d1f1f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5</a>
-</p>
-
-<div align="center">
-  
-| Class    |      AP50        |  
-|----------|:----------------:| 
-| ChayLa   |  0.9320          |  
-| DomLa    |  0.9240          |  
-
-</div>
-
-<p align="center">
-Bảng . Kết quả đánh giá model YOLOv5
-</p>
-  
-  
-* Faster R-CNN
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172802341-ab42bec4-fa5e-4495-a741-c5f1432e1b64.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
-</p>
-
-<div align="center">
-  
-| Class       |      AP50        |  
-|-------------|:----------------:|
-| ChayLa      |  0.9318          |  
-| DomTrang    |  0.9152          |  
-</div>
-  
-<p align="center">
-Bảng . Kết quả đánh giá model Faster R-CNN
-</p>
-<a name="thamkhao"></a>
-  
-  
-  
-* Tổng kết đánh giá AP50
- <div align="center">
-  
-| Class            |      ChayLa      |     DomTrang     |     All       |Precision          |Recall     |mAP@0.5          |
-|------------------|:----------------:|:----------------:|:-------------:|:-----------------:|:---------:|:---------------:|
-| YOLOv4           |  0.9299          |  0.9230          |  0.9264       |0.910              |0.870      |0.9265           |
-| YOLOv5           |  <ins>0.9320     |  <ins>0.9240     |  <ins>0.9280  |0.919              |0.878      |<ins>0.9280      | 
-| Faster R-CNN     |  0.9318          |  0.9152          |  0.9235       |<ins>0.924         |           |0.9235           |
-</div>
-  
-
-<a name="ungdung"></a>
-# **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
-* **Cách cải tiến:**
-    * Về dữ liệu:
-        * Tăng cường sự đa dạng của dự liệu bằng cách thu thập thêm nhiều ảnh về các bệnh khác nhau, thu thập dữ liệu tại nhiều thời điểm trong ngày, thu thập dữ liệu khi cây ở nhiều thời điểm phát triển khác nhau.
-        * Áp dụng thêm các kỹ thuật Data Augmentation (mosaic, blur, contrast, cutout, ...). Chọn lựa phù hợp các kỹ thuật tăng cường khác nhau để phù hợp với bộ dữ liệu.
-        * Quá trình thu thập dữ liệu cũng cần kỹ càng hơn. Cần xác định đúng điều kiện ánh nhiên hay cách chụp ảnh để phù hợp với ngữ cảnh bài toán.
-    * Về mô hình:
-        * Áp dụng thêm nhiều pretrained model khác nhau để có thể tìm được mô hình phù hợp nhất với bài toán và bộ dữ liệu
-        * Áp dụng một số kỹ thuật như thay đổi cấu trúc mô hình, tùy chỉnh tham số để có thể cải thiện mô hình hơn
-* **Hướng phát triển:**
-    * Hướng tới việc phát hiện các loại bệnh trên nhiều loại lá cây trồng khác nhau dựa trên các đặc điểm giống nhau của các loại bệnh khi xuất hiện trên lá.
-   
-<a name="thamkhao"></a>
-# **6. NGUỒN THAM KHẢO**
-[1] Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao, In YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv:2004.10934, 2020
-
-[2] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, In Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. arXiv:1506.01497, 2016
-
-[3] Alexey. 2021. darknet. GitHub; [2022]. https://github.com/AlexeyAB/darknet
-
-[4] Jacob Solawetz. "How to Train Detectron2 on Custom Object Detection Data", roboflow, https://blog.roboflow.com/how-to-train-detectron2/. [2022]
-   
-[5] Roboflow. 2021. yolov5-custom-training-tutorial. GitHub; [2022] https://github.com/roboflow-ai/yolov5-custom-training-tutorial
-
-[6] Agridrone. "Bệnh cháy lá sầu riêng nguyên nhân và cách phòng trừ". Adgidrone. [2022]
-   
-[7] Agridrone. "Bệnh đốm lá trên cây sầu riêng". Adgidrone. [2022]
-   
-[8] Ultralytics. 2022. yolov5. GitHub. https://github.com/ultralytics/yolov5 [2022]
-
-[9] Roboflow. https://roboflow.com/ 
-
-   
-   ### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
-* YOLOv4
-<p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173839177-62f28b65-7a35-4667-adb9-145e4204c202.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4</a>
@@ -527,3 +416,40 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 | YOLOv5           |  <ins>0.6680     |  <ins>0.7400     |  <ins>0.704   |0.8390              |0.539       |
 | Faster R-CNN     |  0.          |  0.          |  0.       |<ins>0.         |           |0.           |
 </div>
+  
+
+<a name="ungdung"></a>
+# **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
+* **Cách cải tiến:**
+    * Về dữ liệu:
+        * Tăng cường sự đa dạng của dự liệu bằng cách thu thập thêm nhiều ảnh về các bệnh khác nhau, thu thập dữ liệu tại nhiều thời điểm trong ngày, thu thập dữ liệu khi cây ở nhiều thời điểm phát triển khác nhau.
+        * Áp dụng thêm các kỹ thuật Data Augmentation (mosaic, blur, contrast, cutout, ...). Chọn lựa phù hợp các kỹ thuật tăng cường khác nhau để phù hợp với bộ dữ liệu.
+        * Quá trình thu thập dữ liệu cũng cần kỹ càng hơn. Cần xác định đúng điều kiện ánh nhiên hay cách chụp ảnh để phù hợp với ngữ cảnh bài toán.
+    * Về mô hình:
+        * Áp dụng thêm nhiều pretrained model khác nhau để có thể tìm được mô hình phù hợp nhất với bài toán và bộ dữ liệu
+        * Áp dụng một số kỹ thuật như thay đổi cấu trúc mô hình, tùy chỉnh tham số để có thể cải thiện mô hình hơn
+* **Hướng phát triển:**
+    * Hướng tới việc phát hiện các loại bệnh trên nhiều loại lá cây trồng khác nhau dựa trên các đặc điểm giống nhau của các loại bệnh khi xuất hiện trên lá.
+   
+<a name="thamkhao"></a>
+# **6. NGUỒN THAM KHẢO**
+[1] Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao, In YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv:2004.10934, 2020
+
+[2] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, In Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. arXiv:1506.01497, 2016
+
+[3] Alexey. 2021. darknet. GitHub; [2022]. https://github.com/AlexeyAB/darknet
+
+[4] Jacob Solawetz. "How to Train Detectron2 on Custom Object Detection Data", roboflow, https://blog.roboflow.com/how-to-train-detectron2/. [2022]
+   
+[5] Roboflow. 2021. yolov5-custom-training-tutorial. GitHub; [2022] https://github.com/roboflow-ai/yolov5-custom-training-tutorial
+
+[6] Agridrone. "Bệnh cháy lá sầu riêng nguyên nhân và cách phòng trừ". Adgidrone. [2022]
+   
+[7] Agridrone. "Bệnh đốm lá trên cây sầu riêng". Adgidrone. [2022]
+   
+[8] Ultralytics. 2022. yolov5. GitHub. https://github.com/ultralytics/yolov5 [2022]
+
+[9] Roboflow. https://roboflow.com/ 
+
+   
+
