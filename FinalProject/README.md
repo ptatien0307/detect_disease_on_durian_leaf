@@ -94,21 +94,22 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
 * Bộ dữ liệu:
-    * train: bao gồm 200 hình ảnh và được tăng cường dữ liệu lên 2000 ảnh. 
-    * test: 
-
+    * train: bao gồm 200 ảnh và được tăng cường dữ liệu lên 1895 ảnh (sheer, rotate, shift, flip, zoom)
+    * test: bao gồm 100 ảnh
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172002598-7f736d9e-bf14-4a64-8c72-72b1bb125422.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/174102636-c37cfcf3-f15b-46b6-b26f-e8b228500bdc.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu</a>
 </p>
 
-* Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3861, trong đó:
-    * Có 1472 object thuộc lớp ChayLa
-    * Có 2389 object thuộc lớp DomTrang
-
+* Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3669, trong đó:
+    * 1405 đối tượng thuộc lớp ChayLa
+    * 2264 đối tượng thuộc lớp DomTrang
+* Test dataset sau khi đã tăng cường dữ liệu có tổng số object là 262, trong đó:
+    * 94 đối tượng thuộc lớp ChayLa
+    * 168 đối tượng thuộc lớp DomTrang
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172002852-052a35e4-9192-4d28-accc-bf38ca053357.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/174104860-159facba-8d1e-4f0e-b2b3-995fed2d670b.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Thống kê dữ liệu</a>
 </p>
