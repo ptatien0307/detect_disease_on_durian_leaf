@@ -346,7 +346,8 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv4</a>
 </p>
-  
+<br/>
+<br/>
 <div align="center">
   
 | Class    |      AP50         | 
@@ -368,7 +369,10 @@ Bảng . Kết quả đánh giá model YOLOv4
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model YOLOv5</a>
 </p>
-
+  
+<br/>
+<br/>
+  
 <div align="center">
   
 | Class    |      AP50        |  
@@ -390,15 +394,18 @@ Bảng . Kết quả đánh giá model YOLOv5
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
 </p>
 
-0.033 
+<br/>
+<br/>
   
 <div align="center">
   
 | Class       |      AP50        |  
 |-------------|:----------------:|
-| ChayLa      |  0.          |  
-| DomTrang    |  0.          |  
+| ChayLa      |  0.6504          |  
+| DomTrang    |  0.6964          |  
 </div>
+  
+  
   
 <p align="center">
 Bảng . Kết quả đánh giá model Faster R-CNN
