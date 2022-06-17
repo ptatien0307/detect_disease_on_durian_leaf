@@ -98,7 +98,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
 * Bộ dữ liệu:
-    * train: bao gồm 200 ảnh và được tăng cường dữ liệu lên 1895 ảnh (sheer, rotate, shift, flip, zoom)
+    * train: bao gồm 200 ảnh và được tăng cường dữ liệu lên 1993 ảnh (sheer, rotate, shift, flip, zoom)
     * test: bao gồm 100 ảnh
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174102636-c37cfcf3-f15b-46b6-b26f-e8b228500bdc.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
