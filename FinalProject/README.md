@@ -120,6 +120,9 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 
 <a name="training"></a>
 # **4. TRAINING VÀ ĐÁNH GIÁ MODEL**
+## **4.1 Nội dung dataset**
+### **4.1.1 YOLO**
+
 ## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171001486-19287188-83ef-42b0-98ce-981c36e2c36b.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
