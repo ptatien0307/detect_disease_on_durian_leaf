@@ -25,9 +25,12 @@
     * ...
     * ...
 
-* Input: Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
-
-* Output: Một tấm ảnh với bounding box bao quanh lá bị bệnh và tên loại bệnh
+* Input: 
+    * Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
+    * Độ phân giải tối thiểu ...p
+    * Điều kiện ánh sáng tốt (ISO > ...)
+    * Ảnh chụp cách lá ít nhất một khoảng ...cm
+* Output: Một tấm ảnh với bounding box bao quanh lá bị bệnh và tên loại bệnh nằm trên bbox tương ứng
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173473224-71645756-2cd7-4338-b7d2-f6be40182d81.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
