@@ -27,6 +27,7 @@
 
 * Input: 
     * Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
+    * Ảnh chụp góc thẳng vào lá
     * Độ phân giải tối thiểu ...p
     * Điều kiện ánh sáng tốt (ISO > ...)
     * Ảnh chụp cách lá ít nhất một khoảng ...cm
