@@ -120,18 +120,17 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 
 <a name="training"></a>
 # **4. TRAINING VÀ ĐÁNH GIÁ MODEL**
-## **4.1 CẤU HÌNH TRAINING**
+## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171001486-19287188-83ef-42b0-98ce-981c36e2c36b.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
 <a style="text-align: center">Hình . Cấu trúc YOLOv4</a>
 </p>
 
-## **4.2 TRAINING MODEL**
+## **4.3 TRAINING MODEL**
+### **4.3.1 YOLOv4**
 
-### **4.2.1 YOLOv4**
-
-#### **4.2.1.1 SƠ LƯỢC VỀ YOLOv4**
+#### **4.3.1.1 SƠ LƯỢC VỀ YOLOv4**
 * YOLOv4 được giới thiệu bởi Alexey Bochoknovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao trong bài báo YOLOv4: Optimal Speed and Accuracy of Object Detection xuất bản ngày 23/4/2020 [1]
 
 * YOLO là một mô hình mạng CNN cho việc phát hiện, nhận dạng, phân loại đối tượng. YOLO được tạo ra từ việc kết hợp giữa các convolutional layers và connected layers. Trong đó các convolutional layers sẽ trích xuất ra các đặc trưng của ảnh, còn full-connected layers sẽ dự đoán ra xác suất đó và bounding box của đối tượng. 
@@ -152,7 +151,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <a style="text-align: center">Hình . Cấu trúc YOLOv4</a>
 </p>
 
-#### **4.2.1.2 THIẾT LẬP TRAINING**
+#### **4.3.1.2 THIẾT LẬP TRAINING**
 * Thiết lập các thông số của model YOLOv4 trong file yolov4-custom.cfg:
     * batch = 64 `số lượng smaple cho một iteration`
     * subdivisions = 16 `số block = batch / subdivisions để đưa vào GPU để sử lý song song`
@@ -219,7 +218,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <a style="text-align: center">Hình . File valid.txt</a>
 </p>
 
-#### **4.2.1.3 TIẾN HÀNH TRAINING**
+#### **4.3.1.3 TIẾN HÀNH TRAINING**
 * Trong quá trình train model các file trọng số được lưu lại:
     * yolov4-custom_last.weights (Trọng số của interation mới nhất)
     * yolov4-custom_best.weights (Trọng số tốt nhất)
@@ -244,9 +243,9 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <a style="text-align: center">Hình . Tiếp tục training YOLOv4</a>
 </p>
 
-### **4.2.2 FASTER R-CNN**
+### **4.3.2 FASTER R-CNN**
 
-#### **4.2.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
+#### **4.3.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
 * Faster R-CNN là một mô hình single-stage, được giới thiệu bởi Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun trong bài báo Towards Real-Time Object Detection with Region Proposal Networks vào năm 2016
 * Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là một sự kết hợp giữa Faster RCNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
 * Bằng việc sử dụng RPN để tìm ra vùng có khả năng chứa đối tượng, Faster R-CNN đã tiết kiệm được nhiều thời gian hơn so với cách sử dụng thuật toán Selective Search 
@@ -259,10 +258,10 @@ Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng b
 <a style="text-align: center">Hình . Chọn pretrained model</a>
 </p>
 
-#### **4.2.2.3 TIẾN HÀNH TRAINING**
+#### **4.3.2.3 TIẾN HÀNH TRAINING**
 
-### **4.2.3 YOLOv5**
-#### **4.2.3.1 SƠ LƯỢC VỀ YOLOv5**
+### **4.3.3 YOLOv5**
+#### **4.3.3.1 SƠ LƯỢC VỀ YOLOv5**
 YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu các bạn chưa biết thì 3 phiên bản YOLO đầu tiên được phát triển bởi Joseph Redmon. Sau đó, Alexey Bochkovskiy cho ra mắt YOLOv4 với sự cải thiện cả về tốc độ cũng như độ chính xác. Và rồi YOLOv5 được công bố gần đây với những so sánh ban đầu cho thấy độ chính xác tương đương YOLOv4 và có tốc độ nhanh hơn khi thực hiện dự đoán (tuy nhiên vẫn có rất nhiều hoài nghi về độ tin cậy của những so sánh này vì YOLOv5 mới được ra mắt trên GitHub chứ chưa có bài báo chính thức nào cả).
 #### **4.2.3.2 THIẾT LẬP TRAINING**
 * Tạo file data.yaml như sau:
@@ -284,7 +283,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <a style="text-align: center">Hình . Tiến hành training YOLOv5</a>
 </p>
 
-#### **4.2.3.3 TIẾN HÀNH TRAINING**
+#### **4.3.3.3 TIẾN HÀNH TRAINING**
 * Tiến hành training lần đầu
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171991086-44dc560d-9a35-4317-8550-0dc2c5112aae.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -302,15 +301,9 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 * Trong quá trình train model các file trọng số được lưu lại:
     * last.pt (Trọng số của interation mới nhất)
     * best.pt (Trọng số tốt nhất)
-#### **4.2.3.3 KẾT QUẢ TRAINING**
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172000457-29f43cd8-59c9-41ef-90b8-c802c7335518.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Kết quả training</a>
-</p>
 
-## **4.3 ĐÁNH GIÁ MODEL**
-### **4.3.1 METRIC ĐÁNH GIÁ**
+## **4.4 ĐÁNH GIÁ MODEL**
+### **4.4.1 METRIC ĐÁNH GIÁ**
 * Để đánh giá các model detector và cũng như để so sánh các model với nhau thì nhóm sẽ sử dụng thông số mAP (mean average precision), đặc biệt tập trung vô các chỉ số mAP như AP, AP50, AP75. mAP cũng là một các đánh giá phổ biển cho các model detector hiện nay.
   
 * Trước khi vào phần đánh giá mAP, nhóm xin trình bày lại các khái niệm có liên quan trước:
@@ -344,7 +337,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 * a
     * Khi đó AP sẽ là diện tích phần màu xanh nằm dưới PR-Curve. Khi đó mAP sẽ là trung bình các AP của tất cả các lớp.
     * IoU có ý nghĩa quan trọng đối với chỉ số mAP và việc lựa chọn giá trị của IoU sẽ ảnh hưởng đến kết quả đánh giá của model. Khi ngưỡng IoU thay đổi Precision – Recall cũng thay đổi. Trong các bài toán detection, chúng ta tính toán chỉ số precision và recall với một ngưỡng IoU cho trước, ví dụ đơn giản nhất là nếu ta cho ngưỡng IoU bằng 0.4 và chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì ta tính rằng bbox được dự đoán đó là đúng, tuy nhiên nếu đặt ngưỡng IoU bằng 0.6 thì với chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì bbox được dự đoán đó là sai. Do đó, tại một giá trị IoU xác định,ta có thể do/đánh giá được mô hình một cách tốt nhất.
-### **4.3.2 KẾT QUẢ ĐÁNH GIÁ**
+### **4.4.2 KẾT QUẢ ĐÁNH GIÁ**
 * YOLOv4
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173839177-62f28b65-7a35-4667-adb9-145e4204c202.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -429,6 +422,10 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 | Faster R-CNN     |  0.6504          |  0.6964          |  0.6734       |
 </div>
   
+
+   
+Nhận xét:
+* Đối với các trường hợp như lá bị hai bệnh
 
 <a name="ungdung"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
