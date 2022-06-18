@@ -21,8 +21,9 @@
 # **1. TỔNG QUAN VỀ ĐỒ ÁN** 
 ## **1.1 MÔ TẢ BÀI TOÁN**
 * Ngữ cảnh ứng dụng:
-    * ...
-    * ...
+    * Trong những năm gần đây, diện tích trồng cây sầu riêng luôn được mở rộng từ đồng bằng sông Cửu Long đến tận miền Đông Tây Nguyên, nguyên do là cây mang lại hiệu quả kinh tế bởi năng suất cao, chất lượng ngon đáp ứng được yêu cầu của người tiêu dùng ngay cả trong nước và xuất khẩu
+    
+    * Theo Bộ Nông nghiệp và Phát triển nông thôn, tổng kim ngạch xuất nhập khẩu hàng nông, lâm, thủy sản 5 tháng đầu năm 2022 ước đạt khoảng 41,3 tỷ USD, tăng 8,6% so cùng kỳ năm 2021. Đây được xem là tín hiệu khả quan, dù dịch COVID-19 đã đang làm đứt gãy nhiều chuỗi sản xuất, tiêu thụ và xuất khẩu. Tại khu vực Đồng Bằng Sông Cữu Long, trong giỏ hàng thì trái cây, thủy sản như tôm, cá tra lại một lần nữa khẳng định vị thế khi có giá trị xuất khẩu tăng, trong đó đặc biệt phải kể đến là sầu riêng.
     * ...
 
 * Input: 
