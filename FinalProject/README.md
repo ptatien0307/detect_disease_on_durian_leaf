@@ -26,7 +26,7 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174416173-1fecf800-518c-4ad2-925f-1eeeb46df569.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về input và output ChayLa</a>
+<a style="text-align: center">Hình . Hình minh họa cây sầu riêng (Nguồn : Internet) </a>
 </p>
 
   
