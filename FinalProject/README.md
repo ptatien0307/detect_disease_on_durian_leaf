@@ -82,6 +82,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 * Dữ liệu được nhóm thu thập thủ công bằng camera của điện thoại.
 * Điện thoại sử dụng: Vivo S1, SamSung Galaxy J4+
 * Mỗi tấm ảnh gốc có kích thước 3456 x 4608 (camera nằm ngang), 4608 x 3456 (camera nằm dọc)
+* Bộ dữ liệu được thu thập trong hai ngày 30/05/2022 và 15/06/2022 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174421483-c2f3a794-56f5-49bb-958c-fbb7e1bceacb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
