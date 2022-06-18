@@ -68,9 +68,10 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174418926-2a535ddc-e397-4432-922d-d49f965257e0.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ảnh quá trình thu thập dữ liệu tại vườn sầu riêng tại Thị trấn Chợ Lách, huyện Chợ Lách, tỉnh Bến Tre </a>
+<a style="text-align: center">Hình . Ảnh quá trình thu thập dữ liệu tại vườn sầu riêng thuộc Thị trấn Chợ Lách, huyện Chợ Lách, tỉnh Bến Tre </a>
 </p>
-
+ 
+* Bộ dữ liệu về lá cây sầu riêng hiện nay chưa có ai thu thập nên số lượng dữ liệu mà nhóm có vẫn còn hạn chế do dữ liệu tự thu thập và xử lý. Mục đích của việc tự thu thập dữ liệu là để phù hợp với ngữ cảnh ứng dụng của bài toán. 
 
 <a name="cacnghiencuu"></a>
 # **2. CÁC NGHIÊN CỨU TRƯỚC ĐÓ**
