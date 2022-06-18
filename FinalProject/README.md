@@ -38,7 +38,8 @@
 <a style="text-align: center">Hình . Hình minh họa cây sầu riêng (Nguồn : Internet) </a>
 </p>
 
-   * ...
+   * Tuy nhiên, với sức tiêu thụ ngày càng khổng lồ của người tiêu dùng trong và cả ngoài nước, chất lượng của quả sầu riêng vẫn chưa đáp ứng được các tiêu chuẩn về độ ngọt, hàm lượng dinh dưỡng, trọng lượng,... Nhằm nâng cao chất lượng của quả sầu riêng, việc phát hiện và xử lý những loại bệnh trên lá của cây là rất quan trọng. Nhận thấy được vấn đề đó nên nhóm đã quyết định áp dụng những kiến thức của mình và những công nghệ trong lĩnh vực Machine Learning để giải quyết bài toán phát hiện một số loại bệnh trên lá cây sầu riêng.
+   * Mô hình hướng tới đối tượng người dùng là người trồng sầu riêng. Mục đích là xây dựng một mô hình ứng dụng có thể giúp người nông dân phát hiện chính xác hơn các loại bệnh đang gặp phải trên lá cây để có hướng chữa trị phù hợp để loại bỏ bệnh và các tác nhân gây bệnh. 
 
 * Input: 
     * Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
