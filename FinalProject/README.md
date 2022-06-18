@@ -22,11 +22,12 @@
 ## **1.1 MÔ TẢ BÀI TOÁN**
 * Ngữ cảnh ứng dụng:
     * Trong những năm gần đây, diện tích trồng cây sầu riêng luôn được mở rộng từ đồng bằng sông Cửu Long đến tận miền Đông Tây Nguyên, nguyên do là cây mang lại hiệu quả kinh tế bởi năng suất cao, chất lượng ngon đáp ứng được yêu cầu của người tiêu dùng ngay cả trong nước và xuất khẩu
-    * <p align="center">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174416173-1fecf800-518c-4ad2-925f-1eeeb46df569.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
 <br>
 <a style="text-align: center">Hình . Ví dụ về input và output ChayLa</a>
 </p>
+
     * dgds
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174416173-1fecf800-518c-4ad2-925f-1eeeb46df569.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
