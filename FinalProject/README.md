@@ -11,7 +11,7 @@
 # **BẢNG MỤC LỤC**
 
 1. [Tổng Quan Về Đồ Án](#tongquan)
-2. [Các Nghiên Cứu Về Bài Toán Của Tiền Nhân](#cacnghiencuu)
+2. [Các Nghiên Cứu Về Bài Toán](#cacnghiencuu)
 3. [Xây Dựng Bộ Dữ Liệu](#dulieu)
 4. [Training Và Đánh Giá Model](#training)
 5. [Hướng Phát Triển Ứng Dụng Và Cải Tiến](#ungdung)
