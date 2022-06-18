@@ -91,7 +91,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 </p>
 
 * File ảnh được lưu trữ trong cùng 1 folder trên máy tính dưới dạng tệp .jpg
-* Thời gian thu thập dữ liệu:
+* Thống kê về thời gian và chi tiết về dữ liệu: 
  
 <br/>
 <div align="center">
@@ -106,6 +106,13 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 Bảng . Thời gian, địa điểm thu thập dữ liệu
 </p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/174425569-6003ae09-f8f6-433b-bb41-b994f9b515a6.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Gán nhãn dữ liệu</a>
+</p>
+
+
 
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
 * Chụp toàn bộ chiếc lá hoặc chùm lá bị bệnh.
