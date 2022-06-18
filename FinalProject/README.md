@@ -108,7 +108,10 @@ Bảng . Thời gian, địa điểm thu thập dữ liệu
 </p>
 
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
-.....
+* Chụp toàn bộ chiếc lá hoặc chùm lá bị bệnh.
+* Chụp rõ nét phần lá bị bệnh.
+* Đảm bảo ánh sáng ban ngày.
+
 ## **3.3 GÁN NHÃN DỮ LIỆU**
 Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <p align="center">
