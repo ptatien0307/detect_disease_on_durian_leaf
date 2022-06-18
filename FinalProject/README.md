@@ -79,6 +79,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 
 <a name="dulieu"></a>
 # **3. XÂY DỰNG BỘ DỮ LIỆU**
+## **3.1 QUÁ TRÌNH THU THẬP**
 * Dữ liệu được nhóm thu thập thủ công bằng camera của điện thoại.
 * Điện thoại sử dụng: Vivo S1, SamSung Galaxy J4+
 * Mỗi tấm ảnh gốc có kích thước 3456 x 4608 (camera nằm ngang), 4608 x 3456 (camera nằm dọc)
@@ -98,7 +99,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 | Thời gian thu thập dữ liệu |                   Địa điểm                  | 
 |----------------------------|:-------------------------------------------:|
 |        30/05/2022          |  xã Sơn Định, huyện Chợ Lách, tỉnh Bến Tre  | 
-|        15/06/2022          |  xã Hàa Nghĩa, huyện Chợ Lách, tỉnh Bến Tre |  
+|        15/06/2022          |  xã Hòa Nghĩa, huyện Chợ Lách, tỉnh Bến Tre |  
 
 </div>
   
@@ -106,9 +107,6 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 Bảng . Thời gian, địa điểm thu thập dữ liệu
 </p>
 
-
-## **3.1 QUÁ TRÌNH THU THẬP**
-.....
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
 .....
 ## **3.3 GÁN NHÃN DỮ LIỆU**
