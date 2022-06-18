@@ -173,12 +173,16 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 ## **4.1 Nội dung dataset**
 ### **4.1.1 YOLO**
 * Đối với các model YOLO thì trong tập dataset sẽ gồm các file ảnh và các file *.txt ứng với mỗi tấm ảnh.
-* Nội dung của file txt: mỗi object được biểu diễn bằng 1 dòng \<object-class> \<x> \<y> \<width> \<height>
-    * Trong đó \<object-class> là số nguyên trong đoạn [0, 3]
+* Nội dung của file txt: mỗi object được biểu diễn bằng 1 dòng \<object-class> \<x-center> \<y-center> \<width> \<height>
+    * Trong đó \<object-class> là số nguyên trong đoạn [0, 1] với số lượng class = 2
     * \<x-center> \<y-center> \<width> \<height> là các số thực được chuẩn hóa có giá trị nằm trong đoạn [0, 1], biểu diễn bouding box của đối tượng.
 ### **4.1.2 Faster RCNN**
-* Đối với các model RCNN thì trong tập dataset sẽ gồm các file ảnh và duy nhất file *.txt chứa thông tin cho toàn bộ dataset.
-* Nội dung của file txt: mỗi object được biểu diễn bằng
+* Đối với các model RCNN thì trong tập dataset sẽ gồm các file ảnh và duy nhất file *.json chứa thông tin cho toàn bộ dataset.
+* Nội dung của file json: 
+    * Mỗi object được biểu diễn bằng 1 đoạn sau: 
+    "image_id": *,
+    "category_id": *,
+            "bbox": [<x> <y> <width> <height>],
 
 ## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
