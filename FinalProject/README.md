@@ -97,7 +97,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 
 </p>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79462324/174425787-8717616f-e473-4885-90bc-6f1f4d2056f9.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79462324/174427022-7f941a92-a62c-4dac-8ed8-52fac19757b3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Bảng . Thời gian, địa điểm thu thập dữ liệu</a>
 </p>
