@@ -70,7 +70,12 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 
 <a name="dulieu"></a>
 # **3. XÂY DỰNG BỘ DỮ LIỆU**
-.....
+* Bộ dữ liệu của mô hình được nhóm thu thập từ một số vườn chuyên trồng sầu riêng trên địa bàn huyện Chợ Lách, tỉnh Bến Tre. Trong quá trình thu thập dữ liệu, nhóm gặp nhiều khó khăn như điều kiện di chuyển đến các vườn sầu riêng khá xa so với nơi ở hiện tại ở TPHCM (130km). Hơn nữa, để đến được các vườn sầu riêng cần phải đi xuồng qua sông lớn đến các cù lao chuyên canh tác sầu riêng. Và do sầu riêng là cây ăn quả nên kích thước rất lớn và cao, gây khó kho cho việc thu thập dữ liệu. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/174418926-2a535ddc-e397-4432-922d-d49f965257e0.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Gán nhãn dữ liệu</a>
+</p>
 ## **3.1 QUÁ TRÌNH THU THẬP**
 .....
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
