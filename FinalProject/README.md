@@ -93,21 +93,12 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 * File ảnh được lưu trữ trong cùng 1 folder trên máy tính dưới dạng tệp .jpg
 * Thống kê về thời gian và chi tiết về dữ liệu: 
  
-<br/>
-<div align="center">
-  
-| Thời gian thu thập dữ liệu |                   Địa điểm                  | 
-|----------------------------|:-------------------------------------------:|
-|        30/05/2022          |  xã Sơn Định, huyện Chợ Lách, tỉnh Bến Tre  | 
-|        15/06/2022          |  xã Hòa Nghĩa, huyện Chợ Lách, tỉnh Bến Tre |  
-
-</div>
   
 <p align="center">
 Bảng . Thời gian, địa điểm thu thập dữ liệu
 </p>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79462324/174425569-6003ae09-f8f6-433b-bb41-b994f9b515a6.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79462324/174425569-6003ae09-f8f6-433b-bb41-b994f9b515a6.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Gán nhãn dữ liệu</a>
 </p>
