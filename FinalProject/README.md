@@ -68,7 +68,7 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174418926-2a535ddc-e397-4432-922d-d49f965257e0.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Gán nhãn dữ liệu</a>
+<a style="text-align: center">Hình . Ảnh quá trình thu thập dữ liệu tại vườn sầu riêng tại Thị trấn Chợ Lách, huyện Chợ Lách, tỉnh Bến Tre </a>
 </p>
 
 
