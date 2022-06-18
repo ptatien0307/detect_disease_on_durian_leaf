@@ -28,8 +28,10 @@
 <br>
 <a style="text-align: center">Hình . Hình minh họa cây sầu riêng (Nguồn : Internet) </a>
 </p>
+</p>
 
-  
+
+   
    * Theo Bộ Nông nghiệp và Phát triển nông thôn, tổng kim ngạch xuất nhập khẩu hàng nông, lâm, thủy sản 5 tháng đầu năm 2022 ước đạt khoảng 41,3 tỷ USD, tăng 8,6% so cùng kỳ năm 2021. Đây được xem là tín hiệu khả quan, dù dịch COVID-19 đã đang làm đứt gãy nhiều chuỗi sản xuất, tiêu thụ và xuất khẩu. Tại khu vực Đồng Bằng Sông Cữu Long, trong giỏ hàng thì trái cây, thủy sản như tôm, cá tra lại một lần nữa khẳng định vị thế khi có giá trị xuất khẩu tăng, trong đó đặc biệt phải kể đến là sầu riêng.
    * ...
 
