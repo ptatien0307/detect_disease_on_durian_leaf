@@ -89,10 +89,9 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <a style="text-align: center">Hình . Độ phân giải và camera sử dụng </a>
 </p>
 
-* File ảnh được lưu trữ trong cùng 1 folder trên máy tính dưới dạng tệp .JPG
-* 
+* File ảnh được lưu trữ trong cùng 1 folder trên máy tính dưới dạng tệp .JPG 
 * Thời gian thu thập dữ liệu:
-* 
+ 
 <br/>
 <div align="center">
   
@@ -106,6 +105,8 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <p align="center">
 Bảng . Thời gian, địa điểm thu thập dữ liệu
 </p>
+
+
 ## **3.1 QUÁ TRÌNH THU THẬP**
 .....
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
