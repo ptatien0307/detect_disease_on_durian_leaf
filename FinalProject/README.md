@@ -176,8 +176,9 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 * Nội dung của file txt: mỗi object được biểu diễn bằng 1 dòng \<object-class> \<x-center> \<y-center> \<width> \<height>
     * Trong đó \<object-class> là số nguyên trong đoạn [0, 1] với số lượng class = 2
     * \<x-center> \<y-center> \<width> \<height> là các số thực được chuẩn hóa có giá trị nằm trong đoạn [0, 1], biểu diễn bouding box của đối tượng.
+
 <p align="center">
-<img src="!https://user-images.githubusercontent.com/79445118/174429224-3ff6fe4d-7d39-4812-9003-00f294e17034.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<img src= !https://user-images.githubusercontent.com/79445118/174429559-37d19f6e-8b5d-475a-9260-eb3cec9dc77d.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
 <a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
 </p>
