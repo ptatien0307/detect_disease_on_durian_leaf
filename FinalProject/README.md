@@ -23,7 +23,7 @@
 * Ngữ cảnh ứng dụng:
     * Trong những năm gần đây, diện tích trồng cây sầu riêng luôn được mở rộng từ đồng bằng sông Cửu Long đến tận miền Đông Tây Nguyên, nguyên do là cây mang lại hiệu quả kinh tế bởi năng suất cao, chất lượng ngon đáp ứng được yêu cầu của người tiêu dùng ngay cả trong nước và xuất khẩu
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79462324/174416173-1fecf800-518c-4ad2-925f-1eeeb46df569.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79462324/174416318-309f2a90-8b03-4262-8e83-62c6a4909306.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Ảnh minh hoa cây sầu riêng (Nguồn : Internet) </a>
 
@@ -40,7 +40,7 @@
 * Output: Một tấm ảnh với bounding box bao quanh lá bị bệnh và tên loại bệnh nằm trên bbox tương ứng
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/173473224-71645756-2cd7-4338-b7d2-f6be40182d81.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/173473224-71645756-2cd7-4338-b7d2-f6be40182d81.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Ví dụ về input và output ChayLa</a>
 </p>
