@@ -66,15 +66,9 @@
 
 * Bộ dữ liệu của mô hình được nhóm thu thập từ một số vườn chuyên trồng sầu riêng trên địa bàn huyện Chợ Lách, tỉnh Bến Tre. Trong quá trình thu thập dữ liệu, nhóm gặp nhiều khó khăn như điều kiện di chuyển đến các vườn sầu riêng khá xa so với nơi ở hiện tại ở TPHCM (130km). Hơn nữa, để đến được các vườn sầu riêng cần phải đi xuồng qua sông lớn đến các cù lao chuyên canh tác sầu riêng. Và do sầu riêng là cây ăn quả nên kích thước rất lớn và cao, gây khó kho cho việc thu thập dữ liệu. 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79462324/174418926-2a535ddc-e397-4432-922d-d49f965257e0.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79462324/174419313-25682449-dce3-42cc-9b02-9d904826300a.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình . Ảnh quá trình thu thập dữ liệu tại vườn sầu riêng thuộc Thị trấn Chợ Lách, huyện Chợ Lách, tỉnh Bến Tre</a>
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79462324/174419173-fe518c2d-b0f5-486c-ab7e-361397357643.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Ví dụ về input và output DomTrang</a>
 </p>
 
 * Bộ dữ liệu về lá cây sầu riêng hiện nay chưa có ai thu thập nên số lượng dữ liệu mà nhóm có vẫn còn hạn chế do dữ liệu tự thu thập và xử lý. Mục đích của việc tự thu thập dữ liệu là để phù hợp với ngữ cảnh ứng dụng của bài toán. 
