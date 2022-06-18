@@ -179,10 +179,11 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 ### **4.1.2 Faster RCNN**
 * Đối với các model RCNN thì trong tập dataset sẽ gồm các file ảnh và duy nhất file *.json chứa thông tin cho toàn bộ dataset.
 * Nội dung của file json: 
-    * Mỗi object được biểu diễn bằng 1 đoạn sau: 
-    <"image_id": *>,
-    <"category_id": *>,
-    <"bbox": x-min y-min width height>
+    * Đối với mỗi object được biểu diễn bằng 1 đoạn sau: 
+    <"image_id": *>, là id của hình ảnh do file *.json chứa thông tin cho toàn bộ dataset
+    <"category_id": *>, là số nguyên trong đoạn [0, 1] tượng trưng cho class của vật thể đó.
+    <"bbox": x-min y-min width height> với x-min , y-min là tọa độ điểm góc trên cùng bên trái với chiều rộng và chiều cao của bounding box.
+    
     
 ## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
