@@ -232,6 +232,11 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
     * width = 416, height = 416 `YOLOv4 sẽ resize ảnh trước khi cho vào mô hình`
     * classes = 2 (Số class). Chỉnh sửa dòng classes=80 ở các layee [yolo]thành số lượng classes có trong dataset
     * filters = 21. Chỉnh sửa dòng filter = 255 ở layer conv ngay trước layer [yolo] thành (số classes + 5) * 3) `số convolutional kernels có trong layer đó`
+
+`Các thông số khác trong file config có thể xem thêm tại đây: `
+* https://github.com/AlexeyAB/darknet/wiki/CFG-Parameters-in-the-%5Bnet%5D-section
+* https://github.com/AlexeyAB/darknet/wiki/CFG-Parameters-in-the-different-layers
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171085332-e76d9e1d-df86-479b-b7c9-fccec6f22831.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
