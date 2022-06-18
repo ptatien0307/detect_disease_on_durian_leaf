@@ -83,7 +83,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 * Điện thoại sử dụng: Vivo S1, SamSung Galaxy J4+
 * Mỗi tấm ảnh gốc có kích thước 3456 x 4608 (camera nằm ngang), 4608 x 3456 (camera nằm dọc)
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79462324/174421126-38bc2adb-defd-4a5f-855c-8311e031bd03.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79462324/174421483-c2f3a794-56f5-49bb-958c-fbb7e1bceacb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Độ phân giải và camera sử dụng </a>
 </p>
