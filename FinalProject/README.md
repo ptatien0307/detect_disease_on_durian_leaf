@@ -177,7 +177,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
     * Trong đó \<object-class> là số nguyên trong đoạn [0, 1] với số lượng class = 2
     * \<x-center> \<y-center> \<width> \<height> là các số thực được chuẩn hóa có giá trị nằm trong đoạn [0, 1], biểu diễn bouding box của đối tượng.
 <p align="center">
-<img src="![image](https://user-images.githubusercontent.com/79445118/174429224-3ff6fe4d-7d39-4812-9003-00f294e17034.png)" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="!https://user-images.githubusercontent.com/79445118/174429224-3ff6fe4d-7d39-4812-9003-00f294e17034.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
 </p>
