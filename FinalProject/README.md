@@ -88,7 +88,22 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <br>
 <a style="text-align: center">Hình . Độ phân giải và camera sử dụng </a>
 </p>
+* File ảnh được lưu trữ trong cùng 1 folder trên máy tính dưới dạng tệp .JPG
+* Thời gian thu thập dữ liệu:
+<br/>
+<br/>
+<div align="center">
+  
+| Thời gian thu thập dữ liệu |                   Địa điểm                  | 
+|----------------------------|:-------------------------------------------:|
+|        30/05/2022          |  xã Sơn Định, huyện Chợ Lách, tỉnh Bến Tre  | 
+|        15/06/2022          |  xã Hàa Nghĩa, huyện Chợ Lách, tỉnh Bến Tre |  
 
+</div>
+  
+<p align="center">
+Bảng . Kết quả đánh giá model YOLOv4
+</p>
 ## **3.1 QUÁ TRÌNH THU THẬP**
 .....
 ## **3.2 TIÊU CHÍ KHI THU THẬP DỮ LIỆU**
