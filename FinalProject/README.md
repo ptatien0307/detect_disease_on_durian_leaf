@@ -190,7 +190,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
     <"bbox": x-min y-min width height> với x-min , y-min là tọa độ điểm góc trên cùng bên trái với chiều rộng và chiều cao của bounding box.
     
 <p align="center">
-<img src=!https://user-images.githubusercontent.com/79445118/174465336-cd6a6d72-6e8e-4041-b5e7-66810bde6f0d.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<img src=https://user-images.githubusercontent.com/79445118/174465336-cd6a6d72-6e8e-4041-b5e7-66810bde6f0d.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
 <a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
 </p>    
