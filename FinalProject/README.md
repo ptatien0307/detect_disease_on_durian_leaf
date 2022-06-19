@@ -228,6 +228,20 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 </p>
 
 #### **4.3.1.2 THIẾT LẬP TRAINING**
+* Clone github chứa source code YOLOv4: https://github.com/AlexeyAB/darknet
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/174467712-10d22a52-ac07-495a-a775-4f4030806a11.png" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
+<br>
+<a style="text-align: center">Hình . File valid.txt</a>
+</p>
+
+* Thiết lập các thông số trong file Makefile để sử dụng GPU cho việc training
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/174467575-d7b00eb7-6b71-4a95-8c38-84bd5076584e.png" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
+<br>
+<a style="text-align: center">Hình . File valid.txt</a>
+</p>
+
 * Thiết lập các thông số của model YOLOv4 trong file yolov4-custom.cfg:
     * batch = 64 `số lượng smaple cho một iteration`
     * subdivisions = 16 `số block = batch / subdivisions để đưa vào GPU để sử lý song song`
@@ -235,7 +249,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
     * steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches) `learning rate sẽ được điều chỉnh sau 80%, 90% max_batches`
     * width = 416, height = 416 `YOLOv4 sẽ resize ảnh trước khi cho vào mô hình`
     * classes = 2 (Số class). Chỉnh sửa dòng classes=80 ở các layee [yolo]thành số lượng classes có trong dataset
-    * filters = 21. Chỉnh sửa dòng filter = 255 ở layer conv ngay trước layer [yolo] thành (số classes + 5) * 3) `số convolutional kernels có trong layer đó`
+    * filters = 21. Chỉnh sửa dòng filter = 255 ở layer conv ngay trước layer [yolo] thành (số classes + 5) * 3 `số convolutional kernels có trong layer đó`
 
 `Các thông số khác trong file config có thể xem thêm tại đây: `
 * https://github.com/AlexeyAB/darknet/wiki/CFG-Parameters-in-the-%5Bnet%5D-section
@@ -261,10 +275,12 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 
 * Tạo file obj.names chứa tên của các class
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171179582-4b6d2814-a50f-443d-800a-9e41e2942002.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/174467662-4fe2deac-eaaf-4bdd-8ab9-bd2d528e906d.png" style="display: block;margin-left: auto;margin-right: auto;width: 25%; height:25%;"/>
 <br>
 <a style="text-align: center">Hình . File obj.names</a>
 </p>
+
+* Tạo folder backup trong folder darknet để lại lại các trọng số của model trong quá trình training
 
 * Tạo file obj.data có nội dung như sau
     * Số classes có trong dataset
@@ -298,6 +314,10 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <br>
 <a style="text-align: center">Hình . File valid.txt</a>
 </p>
+
+
+
+
 
 #### **4.3.1.3 TIẾN HÀNH TRAINING**
 * Trong quá trình train model các file trọng số được lưu lại:
@@ -339,7 +359,8 @@ Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng b
 <a style="text-align: center">Hình . Chọn pretrained model</a>
 </p>
 
-#### **4.3.2.3 TIẾN HÀNH TRAINING**
+  
+  
 
 ### **4.3.3 YOLOv5**
 #### **4.3.3.1 SƠ LƯỢC VỀ YOLOv5**
@@ -347,7 +368,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 #### **4.2.3.2 THIẾT LẬP TRAINING**
 * Tạo file data.yaml như sau:
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171991051-0de1c835-7ee9-464b-8067-034dc68f2434.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/174467789-ecdc1b03-c792-4022-a951-90639686a60a.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . File data.yaml</a>
 </p>
