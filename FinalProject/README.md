@@ -181,12 +181,6 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
     * Trong đó \<object-class> là số nguyên trong đoạn [0, 1] với số lượng class = 2
     * \<x-center> \<y-center> \<width> \<height> là các số thực được chuẩn hóa có giá trị nằm trong đoạn [0, 1], biểu diễn bouding box của đối tượng.
 
-<p align="center">
-<img src=https://user-images.githubusercontent.com/79445118/174429559-37d19f6e-8b5d-475a-9260-eb3cec9dc77d.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
-<br>
-<a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
-</p>
-
 ### **4.1.2 Faster RCNN**
 * Đối với các model RCNN thì trong tập dataset sẽ gồm các file ảnh và duy nhất file *.json chứa thông tin cho toàn bộ dataset.
 * Nội dung của file json: 
@@ -194,6 +188,12 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
     <"image_id": *>, là id của hình ảnh do file *.json chứa thông tin cho toàn bộ dataset
     <"category_id": *>, là số nguyên trong đoạn [0, 1] tượng trưng cho class của vật thể đó.
     <"bbox": x-min y-min width height> với x-min , y-min là tọa độ điểm góc trên cùng bên trái với chiều rộng và chiều cao của bounding box.
+    
+<p align="center">
+<img src=!https://user-images.githubusercontent.com/79445118/174465336-cd6a6d72-6e8e-4041-b5e7-66810bde6f0d.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
+</p>    
     
     
 ## **4.2 CẤU HÌNH TRAINING**
