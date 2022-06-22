@@ -196,7 +196,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 </p>    
     
 <p align="center">
-<img src=!https://user-images.githubusercontent.com/79445118/174934921-6cbe40e4-0d59-4bdd-9e02-2a56433aa1c7.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<img src=https://user-images.githubusercontent.com/79445118/174934921-6cbe40e4-0d59-4bdd-9e02-2a56433aa1c7.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
 <a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
 </p>        
