@@ -195,7 +195,11 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
 </p>    
     
-    
+<p align="center">
+<img src=!https://user-images.githubusercontent.com/79445118/174934921-6cbe40e4-0d59-4bdd-9e02-2a56433aa1c7.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
+</p>        
 ## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171001486-19287188-83ef-42b0-98ce-981c36e2c36b.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
