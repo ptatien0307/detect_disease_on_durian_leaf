@@ -539,7 +539,16 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 
    
 -> Khi đánh giá bằng điểm AP@0.5, Faster RCNN đều cho kết quả tốt hơn cả 2 model còn lại
-
+* Một số hình ảnh test :
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175332365-bffa5671-95fb-470b-8bb3-f33550b5eb2b.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
+</p>
+   
+   
+   
    
 Nhận xét:
 * Đối với các trường hợp như lá bị hai bệnh
