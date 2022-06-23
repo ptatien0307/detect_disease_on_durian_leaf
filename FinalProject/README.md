@@ -502,7 +502,7 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 * Faster R-CNN
 <p align="center">
-<img src="" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/175298328-b79f8e9a-03cf-4bfd-a26e-7547d4acb9d4.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Kết quả đánh giá model Faster R-CNN</a>
 </p>
@@ -514,8 +514,8 @@ Bảng . Kết quả đánh giá model YOLOv5
   
 | Class       |      AP50        |  
 |-------------|:----------------:|
-| ChayLa      |  0.          |  
-| DomTrang    |  0.          |  
+| ChayLa      |  0.6822          |  
+| DomTrang    |  0.7576          |  
 </div>
   
   
@@ -533,10 +533,12 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 | Class            |      ChayLa      |     DomTrang     |     All       |
 |------------------|:----------------:|:----------------:|:-------------:|
 | YOLOv4           |  0.6545          |  0.6258          |  0.6401       |
-| YOLOv5           |  <ins>0.5840     |  <ins>0.7260     |  <ins>0.6550   |
-| Faster R-CNN     |  0.          |  0.          |  0.       |
+| YOLOv5           |  0.5840          |  0.7260          |  0.6550       |
+| Faster R-CNN     |  <ins>0.6822     |  <ins>0.7576     |  <ins>0.7100  |
 </div>
-  
+
+   
+-> Khi đánh giá bằng điểm AP@0.5, Faster RCNN đều cho kết quả tốt hơn cả 2 model còn lại
 
    
 Nhận xét:
