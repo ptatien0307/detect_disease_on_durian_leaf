@@ -594,7 +594,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 <a style="text-align: center">Hình . Kết quả test</a>
 </p>
    
-> Test với ảnh lá bình thường, cả 3 model đều dự đoán sai lá bình thường thành lá bị bệnh cháy lá.
+> Test với ảnh lá bình thường, cả 3 model đều có tỉ lệ cao dự đoán sai lá bình thường thành lá bị bệnh cháy lá.
    
 
   
