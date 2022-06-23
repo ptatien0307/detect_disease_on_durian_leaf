@@ -547,12 +547,61 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 <a style="text-align: center">Hình . Kết quả test</a>
 </p>
    
-`Cả ba model đều cho kết quả chính xác khi detect được 2 lá bị bệnh.` 
+> Cả ba model đều cho kết quả chính xác khi detect được 2 lá bị bệnh.
    
    
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175335978-ce112080-815a-4582-963e-72695c91be0c.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+   
+> YOLOv4 cho kết quả chính xác, YOLOv5 và Faster R-CNN detect sai lá bình thường thành lá bệnh cháy lá.
+   
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175336571-9aedc676-416f-423e-8a64-4019d511e72f.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+   
+> YOLOv4 cho kết quả chính xác, YOLOv5 và Faster R-CNN vẫn detect sai lá bình thường thành lá bệnh cháy lá. Nhưng ở Faster R-CNN vượt trội hơn là detect đúng 1 lá bị cả 2 bệnh.
+   
+   
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175337189-d3009849-350d-415e-8a6a-b66f8ba8e127.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+   
+> YOLOv4, YOLOv5 cho kết quả chính xác. Nhưng Faster R-CNN detect 1 lá bị cả 2 bệnh. Do bệnh cháy lá trên thân lá cũng có đốm nên Faster R-CNN bị nhầm lẫn. 
+ 
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175337926-6071e62b-1621-440c-b626-523631292033.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+   
+> Với ảnh có nhiều lá, YOLOv4 và YOLOv5 cho kết quả đúng nhưng bị thiếu khá nhiều bbox. Faster R-CNN detect sô  bbox nhiều hơn, và độ chính xác cao nhưng đôi khi vẫn nhầm lẫn lá bình thường với lá bị cháy lá. 
+   
+  
+ <p align="center">
+<img src=" https://user-images.githubusercontent.com/79462324/175340453-264b7809-67f4-4728-97f0-6e0b5f6b5ba6.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+   
+> Test với ảnh lá bình thường, cả 3 model đều dự đoán sai lá bình thường thành lá bị bệnh cháy lá.
+   
+
    
 Nhận xét:
 * Đối với các trường hợp như lá bị hai bệnh
+   
+   
 
 <a name="ungdung"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
