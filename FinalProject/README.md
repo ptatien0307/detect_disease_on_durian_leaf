@@ -585,7 +585,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 <a style="text-align: center">Hình . Kết quả test</a>
 </p>
    
-> Với ảnh có nhiều lá, YOLOv4 và YOLOv5 cho kết quả đúng nhưng bị thiếu khá nhiều bbox. Faster R-CNN detect sô  bbox nhiều hơn, và độ chính xác cao nhưng đôi khi vẫn nhầm lẫn lá bình thường với lá bị cháy lá. 
+> Với ảnh có nhiều lá, YOLOv4 và YOLOv5 cho kết quả đúng nhưng bị thiếu khá nhiều bbox. Faster R-CNN detect số bbox nhiều hơn, và độ chính xác cao nhưng vẫn nhầm lẫn lá bình thường với lá bị cháy lá. 
    
   
  <p align="center">
