@@ -221,14 +221,14 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171307372-bb8b4868-4d3a-454c-adf5-eab1c939b085.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình . So sánh performance YOLOv4</a>
+<a style="text-align: center">Hình . So sánh performance YOLOv4[1]</a>
 </p>
 
 * YOLOv4 runs twice faster than EfficientDet with comparable performance. Improves YOLOv3’s AP and FPS by 10% and 12%, respectively. YOLOv4 can achive 43.5% AP (65.7% AP50) for the MS COCO dataset at a realtime speed of ∼65 FPS on Tesla V100
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171000673-06d74018-9757-4b93-aaab-23d96abfbdfe.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Cấu trúc YOLOv4</a>
+<a style="text-align: center">Hình . Cấu trúc YOLOv4[1]</a>
 </p>
 
 #### **4.3.1.2 THIẾT LẬP TRAINING**
