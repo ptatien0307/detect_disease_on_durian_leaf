@@ -417,7 +417,7 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172040923-471cd707-b884-473f-a667-1ef56502d5bf.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . IOU</a>
+<a style="text-align: center">Hình . IOU (Nguồn : Internet)</a>
 </p>
   
 * a
@@ -437,7 +437,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172042729-471c39c1-4c9e-48df-8e38-fa5c0f8be627.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve</a>
+<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
 </p>
 
 * a
