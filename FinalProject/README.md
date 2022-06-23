@@ -599,13 +599,13 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 
   
 
-* **Nhận xét:**
+* **Nhận xét chung:**
     * Nhìn chung kết quả thử nghiệm đều khá tốt. Các mô hình đều nhận diện chính xác các object chính và những object phụ, mờ, 1 góc lá trong ảnh và bệnh đi kèm từng object.  
     * Nhưng do dữ liệu còn hạn chế nên mô hình vẫn tồn tại một số lỗi như :  
       * Một số lá bình thường bị detect nhầm thành bệnh cháy lá và đốm trắng do 1 số ảnh trong tập train bệnh còn nhẹ và khá giống với lá bình thường.
       * Một số lá bị cháy lá nhưng vẫn có những đốm tròn ở thân lá làm cho model bị nhầm lẫn với bệnh đốm trắng.
       * Cả 3 mô hình đều có những trường hợp detect ra 1 phần lá bị bệnh (đối tượng không đủ từ cuốn đến chóp lá). Trường hợp này xảy ra nhiều hơn đối với model YOLOv5  và Faster R-CNN
-* **Riêng từng model:**
+* **Nhật xét riêng từng model:**
      * **YOLOv4:**  
        * Luôn detect chính xác cá bbox và các nhãn ứng với groundtruth. 
        * Đặc điểm của YOLOv4 là sẽ detect rất tốt những object có kích thước lớn trong ảnh. Nhưng nhũng object có kích thước nhỏ, bị che chắn, hoặc bị mờ thì không detect ra được.
