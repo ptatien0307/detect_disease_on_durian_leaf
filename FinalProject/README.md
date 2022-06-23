@@ -546,7 +546,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 <br>
 <a style="text-align: center">Hình . Kết quả test</a>
 </p>
-* Cả ba model đều cho kết quả chính xác khi detect được 2 lá bị bệnh. *   
+` Cả ba model đều cho kết quả chính xác khi detect được 2 lá bị bệnh. ` 
    
    
    
