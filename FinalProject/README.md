@@ -110,7 +110,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 * Đảm bảo ánh sáng ban ngày.
 
 ## **3.3 GÁN NHÃN DỮ LIỆU**
-Nhóm sử dụng Roboflow để gán nhãn dữ liệu
+Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173475500-dca5d64a-a847-49e2-8952-303a810da625.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
@@ -131,7 +131,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 
 
 **Label 1: Bệnh cháy lá**
-* Bệnh cháy lá sầu riêng có thể phát sinh trên cả lá non và lá già, biểu hiện ban đầu là những đốm nhỏ, sũng nước, sau đó chúng liên kết lại thành mảng bất dạng nhũn nước hay phỏng nước sôi trên lá. Sau đó những đốm bệnh này khô đi và chuyển sang màu nâu sáng với rìa màu nâu tối khiến cho lá bị biến dạng và bị quăn lại.
+* Bệnh cháy lá sầu riêng có thể phát sinh trên cả lá non và lá già, biểu hiện ban đầu là những đốm nhỏ, sũng nước, sau đó chúng liên kết lại thành mảng bất dạng nhũn nước hay phỏng nước sôi trên lá. Sau đó những đốm bệnh này khô đi và chuyển sang màu nâu sáng với rìa màu nâu tối khiến cho lá bị biến dạng và bị quăn lại [6].
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171002992-38021761-1b44-4d33-b79d-3d6c4d14cd63.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
@@ -139,7 +139,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 </p>
 
 **Label 2: Bệnh đốm trắng**
-* Bệnh thường xuất hiện chủ yếu trên lá già trong những điều kiện độ ẩm cao, mật độ cây trong vườn dày đặc, rậm rạp. Đặc biệt xuất hiện ở giai đoạn trước và sau khi thu hoạch cho cây đang suy yếu trong thời gian mang trái. Lá bị bệnh thường có những đốm nhung có màu sắc giống như sắt rỉ hoặc màu vàng cam, một thời gian sau chuyển sang màu xanh xám. Những đốm này có thể tụ họp lại thành mảng lớn trên lá
+* Bệnh thường xuất hiện chủ yếu trên lá già trong những điều kiện độ ẩm cao, mật độ cây trong vườn dày đặc, rậm rạp. Đặc biệt xuất hiện ở giai đoạn trước và sau khi thu hoạch cho cây đang suy yếu trong thời gian mang trái. Lá bị bệnh thường có những đốm nhung có màu sắc giống như sắt rỉ hoặc màu vàng cam, một thời gian sau chuyển sang màu xanh xám. Những đốm này có thể tụ họp lại thành mảng lớn trên lá [7].
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171003346-7fcb90d1-2dca-4df7-a45f-1c85d4cf9db8.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
@@ -196,9 +196,9 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 </p>    
     
 <p align="center">
-<img src=!https://user-images.githubusercontent.com/79445118/175291548-d6970634-f6b8-42d6-afc0-1f197847fabe.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<img src=https://user-images.githubusercontent.com/79445118/174934921-6cbe40e4-0d59-4bdd-9e02-2a56433aa1c7.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ cách tính các giá trị x, y, width, height</a>
+<a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
 </p>        
 ## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
@@ -354,15 +354,22 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu
 * Faster R-CNN là một mô hình single-stage, được giới thiệu bởi Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun trong bài báo Towards Real-Time Object Detection with Region Proposal Networks vào năm 2016
 * Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là một sự kết hợp giữa Faster RCNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
 * Bằng việc sử dụng RPN để tìm ra vùng có khả năng chứa đối tượng, Faster R-CNN đã tiết kiệm được nhiều thời gian hơn so với cách sử dụng thuật toán Selective Search 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/175292035-d2fcbd11-ca78-43fa-a607-babc46637182.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Cấu trúc của Faster R-CNN [2]</a>
+</p>
+  
   
 #### **4.2.2.2 THIẾT LẬP TRAINING**
-Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng bài toán Object Detetion and Segmentation. Nhóm sử dụng X101-FPN là model pretrained để tiến hành huấn luyện trên tập dữ liệu mới.
+Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng bài toán Object Detetion and Segmentation. Nhóm sử dụng X101-FPN là model pretrained để tiến hành huấn luyện trên tập dữ liệu mới [10].
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171989700-e8dcac29-84ca-4ff4-9ee5-5b4159bbbcd2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Chọn pretrained model</a>
 </p>
 
+`Detectron2 Model Zoo and Baselines:` https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
   
   
 
@@ -382,12 +389,14 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
     * img: 416 `kích thước mà mô hình sẽ resize để xử lý`
     * epochs: 500 `số iterations training`
     * weights: pretrained weights của model được chọn sử dụng
-* Nhóm chọn pretrained model YOLOv5s để tiến hành huấn luyện
+* Nhóm chọn pretrained model YOLOv5s để tiến hành huấn luyện [8]
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/172003627-13fc664d-bc19-4953-9ec9-e16a380eb72b.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Tiến hành training YOLOv5</a>
+<a style="text-align: center">Hình . Chọn pretrained model</a>
 </p>
+
+`YOLOv5 pretrained model:` https://github.com/ultralytics/yolov5#pretrained-checkpoints  
 
 #### **4.3.3.3 TIẾN HÀNH TRAINING**
 * Tiến hành training lần đầu
@@ -565,6 +574,7 @@ Nhận xét:
 [8] Ultralytics. 2022. yolov5. GitHub. https://github.com/ultralytics/yolov5 [2022]
 
 [9] Roboflow. https://roboflow.com/ 
-
+   
+[10] Meta Research. 2021. detectron2. GitHub; [2022]. https://github.com/facebookresearch/detectron2
    
 
