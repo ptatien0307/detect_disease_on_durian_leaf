@@ -588,7 +588,11 @@ Bảng . Kết quả đánh giá model Faster R-CNN
    
 > Với ảnh có nhiều lá, YOLOv4 và YOLOv5 cho kết quả đúng nhưng bị thiếu khá nhiều bbox. Faster R-CNN detect số bbox nhiều hơn, và độ chính xác cao nhưng vẫn nhầm lẫn lá bình thường với lá bị cháy lá. 
    
-  
+* **Test trên bộ ảnh lá bình thường (không bị cháy lá hay đốm trắng):**
+   * Cả 3 mô hình vẫn detect sai một số object lá bình thường thành lá bệnh. Cụ thể số ảnh sai trong việc detect lá thường thành lá bệnh: 
+      * YOLOv5: 55 ảnh
+      * YOLOv4: 40 ảnh
+      * Faster R-CNN: 84 ảnh
  <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175340453-264b7809-67f4-4728-97f0-6e0b5f6b5ba6.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
@@ -606,19 +610,53 @@ Bảng . Kết quả đánh giá model Faster R-CNN
       * Một số lá bình thường bị detect nhầm thành bệnh cháy lá và đốm trắng do 1 số ảnh trong tập train bệnh còn nhẹ và khá giống với lá bình thường.
       * Một số lá bị cháy lá nhưng vẫn có những đốm tròn ở thân lá làm cho model bị nhầm lẫn với bệnh đốm trắng.
       * Cả 3 mô hình đều có những trường hợp detect ra 1 phần lá bị bệnh (đối tượng không đủ từ cuốn đến chóp lá). Trường hợp này xảy ra nhiều hơn đối với model YOLOv5  và Faster R-CNN
+  
+
+   
 * **Nhật xét riêng từng model:**
      * **YOLOv4:**  
        * Luôn detect chính xác cá bbox và các nhãn ứng với groundtruth. 
        * Đặc điểm của YOLOv4 là sẽ detect rất tốt những object có kích thước lớn trong ảnh. Nhưng nhũng object có kích thước nhỏ, bị che chắn, hoặc bị mờ thì không detect ra được.
-        => YOLOv4 thích hợp để detect những ảnh chụp chính diện lá, kích thước object lớn và rõ nét. 
+        => YOLOv4 thích hợp để detect những ảnh chụp chính diện lá, kích thước object lớn và rõ nét.
+   
+   
+   
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175807266-621ffb53-200b-4064-9d02-5512d3db6977.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+</p>
+
+   
+   
+*   
      * **YOLOv5:**  
        * YOLOv5 cũng detect ra được những object chính, những object đầy đủ các thành phần như YOLOv4. Nhưng YOLOv5 detect được nhiều object hơn (bao gồm cả object bị che chắn, hay mờ nhòe)
-       * Nhưng YOLOv5 vẫn còn nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.
+       * Nhưng YOLOv5 vẫn còn nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.\
+   
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175807506-9c4ee777-1356-496f-b0ad-cccd110477cc.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+</p>
+
+   
+   
+* 
      * **Faster R-CNN:**  
        * Faster R-CNN cũng detect ra được những object chính, object đầy đủ các thành phần như YOLOv4 và YOLOv5. 
-       * Faster R-CNN cũng detect được nhiều object hơn tương tự như YOLOv5 (bao gồm cả object bị che chắn, hay mờ nhòe)
+       * Faster R-CNN cũng detect được nhiều object hơn tương tự như YOLOv5 (bao gồm cả object bị che chắn, hay mờ nhòe).
        * Faster R-CNN cũng nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.
-       * Faster R-CNN hiệu quả hơn YOLOv5 ở chỗ Faster R-CNN detect ra được cả 2 bệnh trên cùng 1 lá mắc phải. Điểu mà YOLOv4 và YOLOv5 không thể. 
+       * Faster R-CNN hiệu quả hơn YOLOv5 ở chỗ Faster R-CNN detect ra được cả 2 bệnh trên cùng 1 lá mắc phải. Điểu mà YOLOv4 và YOLOv5 không thể.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175806323-5162834c-9b44-4202-a942-429aecfc0681.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về Faster R-CNN detect được nhiều object nhỏ, bị che, mờ nhòe</a>
+</p>
    
 <a name="ungdung"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
