@@ -589,10 +589,11 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 > Với ảnh có nhiều lá, YOLOv4 và YOLOv5 cho kết quả đúng nhưng bị thiếu khá nhiều bbox. Faster R-CNN detect số bbox nhiều hơn, và độ chính xác cao nhưng vẫn nhầm lẫn lá bình thường với lá bị cháy lá. 
    
 * **Test trên bộ ảnh lá bình thường (không bị cháy lá hay đốm trắng):**
-   * Cả 3 mô hình vẫn detect sai một số object lá bình thường thành lá bệnh. Cụ thể số ảnh sai trong việc detect lá thường thành lá bệnh: 
-      * YOLOv5: 55 ảnh
-      * YOLOv4: 40 ảnh
-      * Faster R-CNN: 84 ảnh
+   * Cả 3 mô hình vẫn detect sai một số object lá bình thường thành lá bệnh. Cụ thể số object sai trong việc detect lá thường thành lá bệnh: 
+      * YOLOv5: 55 object
+      * YOLOv4: 40 object
+      * Faster R-CNN: 84 object
+       (Một ảnh có thể chứa nhiều object)
  <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175340453-264b7809-67f4-4728-97f0-6e0b5f6b5ba6.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
