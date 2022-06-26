@@ -466,8 +466,8 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
   
 | Class    |      AP50         | 
 |----------|:-----------------:|
-| ChayLa   |  0.           | 
-| DomLa    |  0.           |  
+| ChayLa   |  0.6545           | 
+| DomLa    |  0.6258           |  
 
 </div>
   
@@ -491,8 +491,8 @@ Bảng . Kết quả đánh giá model YOLOv4
   
 | Class    |      AP50        |  
 |----------|:----------------:| 
-| ChayLa   |  0.6545          |  
-| DomLa    |  0.6258          |  
+| ChayLa   |  0.5840          |  
+| DomLa    |  0.7620          |  
 
 </div>
 
