@@ -634,7 +634,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 *   
      * **YOLOv5:**  
        * YOLOv5 cũng detect ra được những object chính, những object đầy đủ các thành phần như YOLOv4. Nhưng YOLOv5 detect được nhiều object hơn (bao gồm cả object bị che chắn, hay mờ nhòe)
-       * Nhưng YOLOv5 vẫn còn nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.\
+       * Nhưng YOLOv5 vẫn còn nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.
    
    
 <p align="center">
@@ -652,6 +652,16 @@ Bảng . Kết quả đánh giá model Faster R-CNN
        * Faster R-CNN cũng detect được nhiều object hơn tương tự như YOLOv5 (bao gồm cả object bị che chắn, hay mờ nhòe).
        * Faster R-CNN cũng nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.
        * Faster R-CNN hiệu quả hơn YOLOv5 ở chỗ Faster R-CNN detect ra được cả 2 bệnh trên cùng 1 lá mắc phải. Điểu mà YOLOv4 và YOLOv5 không thể.
+   
+   
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175807695-fa459fd3-9cf5-41cd-b2fd-7d5f3b06c24e.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Kết quả test</a>
+</p>
+</p>
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175806323-5162834c-9b44-4202-a942-429aecfc0681.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
