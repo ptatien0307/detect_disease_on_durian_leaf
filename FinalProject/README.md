@@ -43,10 +43,10 @@
 
 * Input: 
     * Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
-    * Ảnh chụp góc thẳng vào lá
-    * Độ phân giải tối thiểu ...p
-    * Điều kiện ánh sáng tốt (ISO > ...)
-    * Ảnh chụp cách lá ít nhất một khoảng ...cm
+    * Ảnh chụp mặt trên của lá 
+    * Ảnh chụp góc thẳng trực diện và lá
+    * Ảnh không bị nhiễu và có ánh sáng tốt 
+    * Ảnh chụp cách lá ít nhất một khoảng 10 cm
 * Output: Một tấm ảnh với bounding box bao quanh lá bị bệnh và tên loại bệnh nằm trên bbox tương ứng
 
 <p align="center">
