@@ -445,7 +445,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/172042729-471c39c1-4c9e-48df-8e38-fa5c0f8be627.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/175804097-d5dde0fb-b348-43af-933f-d369b6dae02f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
 </p>
