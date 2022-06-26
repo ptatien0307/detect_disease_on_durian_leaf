@@ -667,6 +667,12 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 <br>
 <a style="text-align: center">Hình . Ví dụ về Faster R-CNN detect được nhiều object nhỏ, bị che, mờ nhòe</a>
 </p>
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/175808049-f8eb3f66-c246-418d-a2d9-348be3355421.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về Faster R-CNN detect được nhiều object nhỏ, bị che, mờ nhòe</a>
+</p>
    
 <a name="ungdung"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
