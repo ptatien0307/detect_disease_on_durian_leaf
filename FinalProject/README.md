@@ -158,14 +158,14 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 </p>
 
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3284, trong đó:
-    * 1378 đối tượng thuộc lớp ChayLa
-    * 1906 đối tượng thuộc lớp DomTrang
-* Validation dataset sau khi đã tăng cường dữ liệu có tổng số object là 130, trong đó:
-    * 51 đối tượng thuộc lớp ChayLa
-    * 79 đối tượng thuộc lớp DomTrang
-* Test dataset sau khi đã tăng cường dữ liệu có tổng số object là 262, trong đó:
-    * 94 đối tượng thuộc lớp ChayLa
-    * 168 đối tượng thuộc lớp DomTrang
+    * 1378 đối tượng lớp ChayLa
+    * 1906 đối tượng lớp DomTrang
+* Validation dataset có tổng số object là 130, trong đó:
+    * 51 đối tượng lớp ChayLa
+    * 79 đối tượng lớp DomTrang
+* Test dataset  có tổng số object là 262, trong đó:
+    * 94 đối tượng lớp ChayLa
+    * 168 đối tượng lớp DomTrang
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174441522-0f2d7f9f-c1e4-4647-9cb2-9abf35fe33cb.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
