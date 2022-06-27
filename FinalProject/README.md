@@ -146,7 +146,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 <a style="text-align: center">Hình . Một số ví dụ về bệnh đốm lá (đốm trắng) </a>
 </p>
 
-## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
+## **3.4. THỐNG KÊ BỘ DỮ LIỆU** 
 * Bộ dữ liệu:
     * train: bao gồm 150 được tăng cường lên thành 1500 ảnh
     * validation: bao gồm 50 ảnh
