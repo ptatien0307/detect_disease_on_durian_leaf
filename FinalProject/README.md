@@ -308,14 +308,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 * Tạo file valid.txt chứa đường dẫn tới các ảnh dùng để đánh giá trong quá trình train
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/171178723-d0e22c94-95e3-4148-bd30-3b7b6cad06c2.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . File valid.txt</a>
-</p>
-
-* Dowload file pretrain weights (yolov4.conv.137) cho lần training model đầu tiên.
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/175900979-3d6618e9-c377-480a-a879-a5d59b40108d.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="[https://user-images.githubusercontent.com/79583501/171178723-d0e22c94-95e3-4148-bd30-3b7b6cad06c2.png](https://user-images.githubusercontent.com/79583501/175900979-3d6618e9-c377-480a-a879-a5d59b40108d.png)" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình . File valid.txt</a>
 </p>
