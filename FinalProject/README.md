@@ -64,7 +64,7 @@
 
 ## **1.2 MÔ TẢ DỮ LIỆU**
 
-* Bộ dữ liệu của mô hình được nhóm thu thập từ một số vườn chuyên trồng sầu riêng trên địa bàn huyện Chợ Lách, tỉnh Bến Tre. Trong quá trình thu thập dữ liệu, nhóm gặp nhiều khó khăn như điều kiện di chuyển đến các vườn sầu riêng khá xa so với nơi ở hiện tại ở TPHCM (130km). Hơn nữa, để đến được các vườn sầu riêng cần phải đi xuồng qua sông lớn đến các cù lao chuyên canh tác sầu riêng. Và do sầu riêng là cây ăn quả nên kích thước rất lớn và cao, gây khó kho cho việc thu thập dữ liệu. 
+* Bộ dữ liệu của mô hình được nhóm thu thập từ một số vườn chuyên trồng sầu riêng trên địa bàn huyện Chợ Lách, tỉnh Bến Tre. Trong quá trình thu thập dữ liệu, nhóm gặp nhiều khó khăn như điều kiện di chuyển đến các vườn sầu riêng khá xa so với nơi ở hiện tại ở TPHCM (130km). Hơn nữa, để đến được các vườn sầu riêng cần phải đi xuồng qua sông lớn đến các cù lao chuyên canh tác sầu riêng. Và do sầu riêng là cây ăn quả lâu năm nên kích thước rất lớn và cao, gây khó khăn cho việc thu thập dữ liệu. 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/174419313-25682449-dce3-42cc-9b02-9d904826300a.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
