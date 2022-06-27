@@ -143,7 +143,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171003346-7fcb90d1-2dca-4df7-a45f-1c85d4cf9db8.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình . Một số ví dụ về bệnh đốm lá</a>
+<a style="text-align: center">Hình . Một số ví dụ về bệnh đốm lá (đốm trắng) </a>
 </p>
 
 ## **3.4. THỐNG KÊ BỘ DƯ LIỆU** 
