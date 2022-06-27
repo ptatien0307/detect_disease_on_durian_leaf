@@ -373,6 +373,14 @@ Nhóm sử dụng detectron 2, Detetron2 là một framework để xây dựng b
 `Detectron2 Model Zoo and Baselines:` https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
   
   
+Các tham số đã được điều chỉnh:
+    * IMS_PER_BATCH
+    * MAX_ITER
+    * NUM_CLASSES
+    * EVA_PERIOD
+    * CHECKPOINT_PERIOD
+    * OUTPUT_DIR
+  
 
 ### **4.3.3 YOLOv5**
 #### **4.3.3.1 SƠ LƯỢC VỀ YOLOv5**
