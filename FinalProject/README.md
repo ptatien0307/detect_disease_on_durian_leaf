@@ -436,6 +436,14 @@ YOLOv5 là một mô hình Object Detection thuộc họ mô hình YOLO. Nếu c
         * **True Positive (TP)**: những bbox có IOU >= ngưỡng
         * **False Positive (FP)**: những bbox có IOU < ngưỡng
         * **False Negative (FN)**: những bbox model không dự đoán được 
+                                                             
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/176114186-3747e218-f0fb-4be7-9d65-c3221b73a1b3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về TP, FP và FN [11]</a>
+</p>
+  
+* a
     * **Precision**: cho biết tỉ lệ bbox được dự đoán có IOU >= ngưỡng 
     $$Precision = \frac{TP}{TP + FP} = \frac{TP}{All detections}$$
     * **Recall**: cho biết tỉ lệ bbox được sự đoán có IOU >= ngưỡng trên tổng số ground-truth bbox 
@@ -455,16 +463,12 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
     * Khi đó AP sẽ là diện tích phần nằm dưới PR-Curve. Khi đó mAP sẽ là trung bình các AP của tất cả các lớp.
     * IoU có ý nghĩa quan trọng đối với chỉ số mAP và việc lựa chọn giá trị của IoU sẽ ảnh hưởng đến kết quả đánh giá của model. Khi ngưỡng IoU thay đổi Precision – Recall cũng thay đổi. Trong các bài toán detection, chúng ta tính toán chỉ số precision và recall với một ngưỡng IoU cho trước, ví dụ đơn giản nhất là nếu ta cho ngưỡng IoU bằng 0.4 và chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì ta tính rằng bbox được dự đoán đó là đúng, tuy nhiên nếu đặt ngưỡng IoU bằng 0.6 thì với chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì bbox được dự đoán đó là sai. Do đó, tại một giá trị IoU xác định,ta có thể do/đánh giá được mô hình một cách tốt nhất.
     
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/176114186-3747e218-f0fb-4be7-9d65-c3221b73a1b3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
-</p>
+
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/176114139-b99b8f66-1695-489d-86df-1c86437b1dce.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79583501/176115743-d1f5969f-fc8a-442e-aca9-8897d8827408.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
+<a style="text-align: center">Hình . Mean Average Precision [11]</a>
 </p>
     
     
@@ -725,4 +729,4 @@ Bảng . Kết quả đánh giá model Faster R-CNN
    
 [10] Meta Research. 2021. detectron2. GitHub; [2022]. https://github.com/facebookresearch/detectron2
    
-
+[11] Aqeel Anwar. "What is Average Precision in Object Detection & Localization Algorithms and how to calculate it?", towardsdatascience, https://towardsdatascience.com/what-is-average-precision-in-object-detection-localization-algorithms-and-how-to-calculate-it-3f330efe697b. [2022]
