@@ -131,17 +131,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 
 
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/173480508-75503845-a466-4487-9369-562ee2b33e97.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
-<br>
-<a style="text-align: center">Hình . Format label YOLO</a>
-</p>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/173480424-d62191c2-7cf8-42dc-8ac9-087d52da1812.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
-<br>
-<a style="text-align: center">Hình . Format label COCO</a>
-</p>
 
 
 **Label 1: Bệnh cháy lá**
@@ -194,6 +184,12 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 * Nội dung của file txt: mỗi object được biểu diễn bằng 1 dòng \<object-class> \<x-center> \<y-center> \<width> \<height>
     * Trong đó \<object-class> là số nguyên trong đoạn [0, 1] với số lượng class = 2
     * \<x-center> \<y-center> \<width> \<height> là các số thực được chuẩn hóa có giá trị nằm trong đoạn [0, 1], biểu diễn bouding box của đối tượng.
+</p>       
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173480508-75503845-a466-4487-9369-562ee2b33e97.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Format label YOLO</a>
+</p>
 
 ### **4.1.2 Faster RCNN**
 * Đối với các model RCNN thì trong tập dataset sẽ gồm các file ảnh và duy nhất file *.json chứa thông tin cho toàn bộ dataset.
@@ -202,7 +198,13 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
     <"image_id": *>, là id của hình ảnh do file *.json chứa thông tin cho toàn bộ dataset
     <"category_id": *>, là số nguyên trong đoạn [0, 1] tượng trưng cho class của vật thể đó.
     <"bbox": x-min y-min width height> với x-min , y-min là tọa độ điểm góc trên cùng bên trái với chiều rộng và chiều cao của bounding box.
-    
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/173480424-d62191c2-7cf8-42dc-8ac9-087d52da1812.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Format label COCO</a>
+</p>
+
 <p align="center">
 <img src=https://user-images.githubusercontent.com/79445118/174465336-cd6a6d72-6e8e-4041-b5e7-66810bde6f0d.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
@@ -213,7 +215,7 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <img src=https://user-images.githubusercontent.com/79445118/175347550-13c97d29-450c-4d2f-a9b5-4ddf2ae36299.png style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
 <a style="text-align: center">Hình . Cách tính các giá trị x, y, width, height</a>
-</p>       
+
 
 ## **4.2 CẤU HÌNH TRAINING**
 <p align="center">
