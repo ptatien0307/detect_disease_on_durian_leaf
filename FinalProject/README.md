@@ -110,12 +110,26 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 * Đảm bảo ánh sáng ban ngày.
 
 ## **3.3 GÁN NHÃN DỮ LIỆU**
-Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
+* Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173475500-dca5d64a-a847-49e2-8952-303a810da625.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Gán nhãn dữ liệu</a>
+<a style="text-align: center">Hình . Gán nhãn dữ liệu trên roboflow</a>
 </p>
+
+* Tiêu chí khi gán nhãn:
+    * Gán phần lá bị bệnh (không bao gồm cuốn)
+    * Gán nhãn đối với các lá bị che khuất, mờ, nhỏ
+    * Nếu lá bị che khuất phần lớn thì sẽ không gán
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/176161740-955b14cf-aee5-498b-a52a-05dd191206b0.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ gán nhãn dữ liệu</a>
+</p>
+
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173480508-75503845-a466-4487-9369-562ee2b33e97.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
