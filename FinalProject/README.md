@@ -161,6 +161,15 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <a style="text-align: center">Hình . Thống kê dữ liệu</a>
 </p>
 
+* Tăng cường train dataset sử dụng các phương pháp như: rotation, zoom, horizontal flip
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/176228698-734a6809-aeaa-43cd-b3f5-ae0cf08bed0b.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
+<a style="text-align: center">Hình . Tăng cường dữ liệu</a>
+</p>
+
+
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3284, trong đó:
     * 1378 đối tượng lớp ChayLa
     * 1906 đối tượng lớp DomTrang
