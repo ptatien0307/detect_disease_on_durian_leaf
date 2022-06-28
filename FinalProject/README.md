@@ -248,7 +248,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 </p>
 
 * Thiết lập các thông số của model YOLOv4 trong file yolov4-custom.cfg:
-    * batch = 64 `số lượng smaple cho một iteration`
+    * batch = 64 `số lượng sample cho một iteration`
     * subdivisions = 16 `số block = batch / subdivisions để đưa vào GPU để sử lý song song`
     * max_batches = 4000 (Bằng số class * 2000) `số iterations để training model`
     * steps = 3200, 3600 (Bằng 0.8 * max_batches, 0.9 * max_batches) `learning rate sẽ được điều chỉnh sau 80%, 90% max_batches`
