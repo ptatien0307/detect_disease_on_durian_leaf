@@ -161,15 +161,6 @@ Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực
 <a style="text-align: center">Hình . Thống kê dữ liệu</a>
 </p>
 
-* Tăng cường train dataset sử dụng các phương pháp như: rotation, zoom, horizontal flip
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/176228698-734a6809-aeaa-43cd-b3f5-ae0cf08bed0b.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
-<br>
-<a style="text-align: center">Hình . Tăng cường dữ liệu</a>
-</p>
-
-
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3284, trong đó:
     * 1378 đối tượng lớp ChayLa
     * 1906 đối tượng lớp DomTrang
@@ -698,6 +689,7 @@ Bảng . Kết quả đánh giá model Faster R-CNN
        * Faster R-CNN cũng detect được nhiều object hơn tương tự như YOLOv5 (bao gồm cả object bị che chắn, hay mờ nhòe).
        * Faster R-CNN cũng nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.
        * Faster R-CNN hiệu quả hơn YOLOv5 ở chỗ Faster R-CNN detect ra được cả 2 bệnh trên cùng 1 lá mắc phải. Điểu mà YOLOv4 và YOLOv5 không thể.
+       * Faster R-CNN hiệu quả hơn nhiều trong việc detect những object bị che khuất hơn so với model YOLOv4 và YOLOv5.
    
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175806323-5162834c-9b44-4202-a942-429aecfc0681.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
@@ -718,6 +710,13 @@ Bảng . Kết quả đánh giá model Faster R-CNN
 <br>
 <a style="text-align: center">Hình . Ví dụ về Faster R-CNN detect đúng cả 2 bệnh trên cùng 1 lá mắc phải (YOLOv4 và YOLOv5 không detect được)</a>
 </p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79462324/176229338-a26960c2-f6ff-4049-911b-b07cb3b4f225.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về Faster R-CNN hiệu quả trong việc detect những object bị che khuất so với những model còn lại.</a>
+</p>
+
    
 <a name="ungdung"></a>
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
