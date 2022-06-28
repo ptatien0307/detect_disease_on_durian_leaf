@@ -346,7 +346,7 @@ Nhóm sử dụng Roboflow để gán nhãn dữ liệu [9].
 
 #### **4.3.2.1 SƠ LƯỢC VỀ FASTER R-CNN**  
 * Faster R-CNN là một mô hình single-stage, được giới thiệu bởi Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun trong bài báo Towards Real-Time Object Detection with Region Proposal Networks vào năm 2016
-* Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là một sự kết hợp giữa Faster RCNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
+* Faster R-CNN là một phương pháp cải tiến hơn dựa trên 2 phương pháp trước đó là R_CNN và Fast R-CNN. Faster R-CNN là sự kết hợp giữa Fast-RCNN với một mạng mới có tên gọi là Region Proposal Network(RPN)
 * Bằng việc sử dụng RPN để tìm ra vùng có khả năng chứa đối tượng, Faster R-CNN đã tiết kiệm được nhiều thời gian hơn so với cách sử dụng thuật toán Selective Search 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/175292035-d2fcbd11-ca78-43fa-a607-babc46637182.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
