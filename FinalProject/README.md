@@ -454,6 +454,21 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 * a
     * Khi đó AP sẽ là diện tích phần nằm dưới PR-Curve. Khi đó mAP sẽ là trung bình các AP của tất cả các lớp.
     * IoU có ý nghĩa quan trọng đối với chỉ số mAP và việc lựa chọn giá trị của IoU sẽ ảnh hưởng đến kết quả đánh giá của model. Khi ngưỡng IoU thay đổi Precision – Recall cũng thay đổi. Trong các bài toán detection, chúng ta tính toán chỉ số precision và recall với một ngưỡng IoU cho trước, ví dụ đơn giản nhất là nếu ta cho ngưỡng IoU bằng 0.4 và chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì ta tính rằng bbox được dự đoán đó là đúng, tuy nhiên nếu đặt ngưỡng IoU bằng 0.6 thì với chỉ số IoU sau khi tính toán trên bbox được dự đoán là 0.5 thì bbox được dự đoán đó là sai. Do đó, tại một giá trị IoU xác định,ta có thể do/đánh giá được mô hình một cách tốt nhất.
+    
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/176114186-3747e218-f0fb-4be7-9d65-c3221b73a1b3.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/176114139-b99b8f66-1695-489d-86df-1c86437b1dce.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
+</p>
+    
+    
+
 ### **4.4.2 KẾT QUẢ ĐÁNH GIÁ**
 * YOLOv4
 <p align="center">
