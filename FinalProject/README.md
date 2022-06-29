@@ -42,7 +42,7 @@
    * Mô hình hướng tới đối tượng người dùng là người trồng sầu riêng. Mục đích là xây dựng một mô hình ứng dụng có thể giúp người nông dân phát hiện chính xác hơn các loại bệnh đang gặp phải trên lá cây để có hướng chữa trị phù hợp để loại bỏ bệnh và các tác nhân gây bệnh. 
 
 * Input: 
-    * Một tấm ảnh chụp hình lá của cây sầu riêng đang bị bệnh.
+    * Một tấm ảnh chụp hình lá của cây sầu riêng.
     * Ảnh chụp mặt trên của lá 
     * Ảnh chụp góc thẳng trực diện và lá
     * Ảnh không bị nhiễu và có ánh sáng tốt 
