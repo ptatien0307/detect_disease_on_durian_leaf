@@ -75,7 +75,7 @@
 
 <a name="cacnghiencuu"></a>
 # **2. CÁC NGHIÊN CỨU TRƯỚC ĐÓ**
-Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực máy học nói chung, các vấn đề phân loại (classification) và nhận diện vật thể (object detection) xuất hiện rất nhiều trong bài toán đã được đặt ra và đã được giải quyết. Những bài toán này được giải quyết bằng các mô hình machine learning và deep learning như YOLO, VGG-16, RCNN dựa trên kiến trúc mạng CNN (Convolutional Neural Network) và nhiều mô hình với các kiến trúc khác.
+Hiện nay, trong lĩnh vực thị giác máy tính nói riêng hay lĩnh vực máy học nói chung, các vấn đề phân loại (classification) và nhận diện vật thể (object detection) xuất hiện rất nhiều trong bài toán đã được đặt ra và đã được giải quyết. Những bài toán này được giải quyết bằng các mô hình machine learning và deep learning như YOLO, VGG-16, Resnet-50 dựa trên kiến trúc mạng CNN (Convolutional Neural Network) và nhiều mô hình với các kiến trúc khác.
 
 <a name="dulieu"></a>
 # **3. XÂY DỰNG BỘ DỮ LIỆU**
@@ -472,7 +472,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/175804097-d5dde0fb-b348-43af-933f-d369b6dae02f.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình . Ví dụ về Precision-Recall Curve (Nguồn : Internet)</a>
+<a style="text-align: center">Hình . Ví dụ minh họa về Precision-Recall Curve (Nguồn : Internet)</a>
 </p>
 
 * a
