@@ -549,10 +549,12 @@ Bảng 4.3. Kết quả đánh giá model Faster R-CNN
 </div>
   
   
-  
+  <br/>
+<br/>
  <p align="center">
 Bảng 4.4. Tổng kết đánh giá AP50
 </p>
+
  <div align="center">
   
 | Class            |      ChayLa      |     DomTrang     |     All       |
