@@ -636,7 +636,7 @@ Bảng 4.4. Tổng kết đánh giá AP50
   
 ### **4.3 NHẬN XÉT**
 **NHẬN XÉT CHUNG:**
-* Nhìn chung kết quả thử nghiệm đều khá tốt. Các mô hình đều nhận diện chính xác các object chính và những object phụ, mờ, 1 góc lá trong ảnh và bệnh đi kèm từng object.  
+* Nhìn chung kết quả thử nghiệm đều khá tốt(AP50 đều trên 0.6). Các mô hình đều nhận diện chính xác các object chính và những object phụ, mờ, 1 góc lá trong ảnh và bệnh đi kèm từng object.  
 * Nhưng do dữ liệu còn hạn chế nên mô hình vẫn tồn tại một số lỗi như :  
     * Một số lá bình thường bị detect nhầm thành bệnh cháy lá và đốm trắng do 1 số ảnh trong tập train bệnh còn nhẹ và khá giống với lá bình thường.
     * Một số lá bị cháy lá nhưng vẫn có những đốm tròn ở thân lá làm cho model bị nhầm lẫn với bệnh đốm trắng.
