@@ -564,6 +564,11 @@ Bảng 4.4. Tổng kết đánh giá AP50
 | Faster R-CNN     |  <ins>0.6822     |  <ins>0.7576     |  <ins>0.7100  |
 </div>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/177570837-5145f2b9-1b5b-4ecf-828a-92b06ce63d51.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình 4.8. Kết quả test</a>
+</p>
    
 -> Khi đánh giá bằng điểm AP@0.5, Faster RCNN đều cho kết quả tốt hơn cả 2 model còn lại
 * Một số hình ảnh test :
