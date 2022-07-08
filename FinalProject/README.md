@@ -552,8 +552,9 @@ Bảng 4.3. Kết quả đánh giá model Faster R-CNN
   <br/>
 <br/>
  <p align="center">
-Bảng 4.4. Tổng kết đánh giá AP50
+Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 </p>
+
 
  <div align="center">
   
@@ -564,6 +565,24 @@ Bảng 4.4. Tổng kết đánh giá AP50
 | Faster R-CNN     |  <ins>0.6822     |  <ins>0.7375     |  <ins>0.7100  |
 </div>
 
+
+* So sánh kết quả trước và sau khi tăng cường dữ liệu: 
+    * Các chỉ số AP50 ở các class của các model đều tăng
+    * Model YOLOv5 bị ảnh hưởng tới AP50 nhiều nhất khi không tăng cường dữ liệu với độ chênh lệch trước và sau khi đã tăng cường, đặc biệt ở lớp ChayLa
+    * Đối với YOLOv4 và Faster R-CNN thì AP50 thay đổi không quá đáng kể.
+ <p align="center">
+Bảng 4.4. Tổng kết đánh giá AP50 trên tập test với dữ liệu chưa tăng cường
+</p>
+<div align="center">
+  
+| Class            |      ChayLa      |     DomTrang     |     All       |
+|------------------|:----------------:|:----------------:|:-------------:|
+| YOLOv4           |  0.5891          |  0.6108          |  0.6000       |
+| YOLOv5           |  0.3010          |  0.6940          |  0.4980       |
+| Faster R-CNN     |  <ins>0.6756     |  <ins>0.7131     |  <ins>0.6943  |
+</div>
+
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/177570837-5145f2b9-1b5b-4ecf-828a-92b06ce63d51.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
@@ -571,7 +590,7 @@ Bảng 4.4. Tổng kết đánh giá AP50
 </p>
    
 -> Khi đánh giá bằng điểm AP@0.5, Faster RCNN đều cho kết quả tốt hơn cả 2 model còn lại
-* Một số hình ảnh test :
+* Một số hình ảnh test khi huấn luyện trên tập đã tăng cường dữ liệu:
    
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175332365-bffa5671-95fb-470b-8bb3-f33550b5eb2b.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
@@ -713,6 +732,7 @@ Bảng 4.4. Tổng kết đánh giá AP50
 # **5. HƯỚNG PHÁT TRIỂN ỨNG DỤNG VÀ CẢI TIẾN**
 * **Cách cải tiến:**
     * Về dữ liệu:
+        * Do kết quả khi thử nghiệm các model vẫn còn nhẫm lẫn lá bình thường bị bệnh cháy lá nên cần thêm vào các ảnh lá thường (không gán nhãn) và tập huấn luyện.
         * Tăng cường sự đa dạng của dự liệu bằng cách thu thập thêm nhiều ảnh về các bệnh khác nhau, thu thập dữ liệu tại nhiều thời điểm trong ngày, thu thập dữ liệu khi cây ở nhiều thời điểm phát triển khác nhau.
         * Áp dụng thêm các kỹ thuật Data Augmentation (mosaic, blur, contrast, cutout, ...). Chọn lựa phù hợp các kỹ thuật tăng cường khác nhau để phù hợp với bộ dữ liệu.
         * Quá trình thu thập dữ liệu cũng cần kỹ càng hơn. Cần xác định đúng điều kiện ánh nhiên hay cách chụp ảnh để phù hợp với ngữ cảnh bài toán.
