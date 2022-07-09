@@ -549,9 +549,9 @@ Bảng 4.3. Kết quả đánh giá model Faster R-CNN
 </div>
   
   
-  <br/>
 <br/>
- <p align="center">
+<br/>
+<p align="center">
 Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 </p>
 
@@ -571,7 +571,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
     * Model YOLOv5 bị ảnh hưởng tới AP50 nhiều nhất khi không tăng cường dữ liệu với độ chênh lệch trước và sau khi đã tăng cường, đặc biệt ở lớp ChayLa
     * Đối với YOLOv4 và Faster R-CNN thì AP50 thay đổi không quá đáng kể.
  <p align="center">
-Bảng 4.4. Tổng kết đánh giá AP50 trên tập test với dữ liệu chưa tăng cường
+Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu chưa tăng cường
 </p>
 <div align="center">
   
@@ -582,7 +582,8 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 | Faster R-CNN     |  <ins>0.6756     |  <ins>0.7131     |  <ins>0.6943  |
 </div>
 
-
+ <br/>
+<br/>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/177570837-5145f2b9-1b5b-4ecf-828a-92b06ce63d51.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
