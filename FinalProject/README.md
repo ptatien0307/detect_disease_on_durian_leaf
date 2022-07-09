@@ -646,7 +646,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
  <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175340453-264b7809-67f4-4728-97f0-6e0b5f6b5ba6.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.14. Kết quả test</a>
+<a style="text-align: center">Hình 4.14. Kết quả test lá thường</a>
 </p>
    
 > Test với ảnh lá bình thường, cả 3 model đều có tỉ lệ cao dự đoán sai lá bình thường thành lá bị bệnh cháy lá.
