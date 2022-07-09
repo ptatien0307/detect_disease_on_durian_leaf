@@ -245,14 +245,14 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174467712-10d22a52-ac07-495a-a775-4f4030806a11.png" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
 <br>
-<a style="text-align: center">Hình 3.8. File valid.txt</a>
+<a style="text-align: center">Hình 3.8. Git clone repository.txt</a>
 </p>
 
 * Thiết lập các thông số trong file Makefile để sử dụng GPU cho việc training
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174467575-d7b00eb7-6b71-4a95-8c38-84bd5076584e.png" style="display: block;margin-left: auto;margin-right: auto;width: 40%; height:40%;"/>
 <br>
-<a style="text-align: center">Hình 3.9. File valid.txt</a>
+<a style="text-align: center">Hình 3.9. file Makefile.txt</a>
 </p>
 
 * Thiết lập các thông số của model YOLOv4 trong file yolov4-custom.cfg:
