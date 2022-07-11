@@ -596,7 +596,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 
 
 
-*4.2.2.	Kết quả tập test khi huấn luyện trên tập dữ liệu tăng cường
+* 4.2.2.	Kết quả tập test khi huấn luyện trên tập dữ liệu tăng cường
   * YOLOv4
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178274016-0041dac2-2c04-42e6-834c-f1d1468364bb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -676,9 +676,9 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
   
 | Class            |      ChayLa      |     DomTrang     |     All       |
 |------------------|:----------------:|:----------------:|:-------------:|
-| YOLOv4           |  0.6545          |  0.6258          |  0.6401       |
-| YOLOv5           |  0.5840          |  0.7260          |  0.6550       |
-| Faster R-CNN     |  <ins>0.6822     |  <ins>0.7375     |  <ins>0.7100  |
+| YOLOv4           |  0.5891          |  0.6108          |  0.6000       |
+| YOLOv5           |  0.3010          |  0.6940          |  0.4980       |
+| Faster R-CNN     |  <ins>0.6756     |  <ins>0.7131     |  <ins>0.6943  |
 </div>
 
 * So sánh kết quả trước và sau khi tăng cường dữ liệu: 
