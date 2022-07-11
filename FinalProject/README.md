@@ -507,6 +507,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 
 ### **4.2 KẾT QUẢ ĐÁNH GIÁ**
 * 4.2.1.	Kết quả tập test khi huấn luyện trên tập dữ liệu tăng cường
+*
   * YOLOv4
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/175068337-f9920efc-d6a8-4fa0-8a90-d8aa0add9b38.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -528,7 +529,7 @@ Khi tổng hợp lại các precision và recall ở các ngưỡng IoU khác nh
 Bảng 4.1. Kết quả đánh giá model YOLOv4
 </p>
   
-  
+*  
    * YOLOv5
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/175068447-88483234-9215-4e68-888a-3dd2c31e51ce.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -552,7 +553,7 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
 Bảng 4.2. Kết quả đánh giá model YOLOv5
 </p>
   
-  
+*  
   * Faster R-CNN
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/175298328-b79f8e9a-03cf-4bfd-a26e-7547d4acb9d4.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -597,7 +598,8 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 
 
 * 4.2.2.	Kết quả tập test khi huấn luyện trên tập dữ liệu tăng cường
-  * YOLOv4
+*
+   * YOLOv4
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178274016-0041dac2-2c04-42e6-834c-f1d1468364bb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
@@ -618,7 +620,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 Bảng 4.1. Kết quả đánh giá model YOLOv4
 </p>
   
-  
+*  
   * YOLOv5
   
 <p align="center">
@@ -643,7 +645,7 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
 Bảng 4.2. Kết quả đánh giá model YOLOv5
 </p>
   
-  
+*  
   * Faster R-CNN
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178274247-44fcb595-2997-4648-a05e-41311c9c65ba.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
@@ -680,6 +682,12 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 | YOLOv5           |  0.3010          |  0.6940          |  0.4980       |
 | Faster R-CNN     |  <ins>0.6756     |  <ins>0.7131     |  <ins>0.6943  |
 </div>
+
+<p align="center">
+<img src="!https://user-images.githubusercontent.com/79445118/178278059-3acd25cf-172b-4aa1-9833-e54a3b7d0706.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<br>
+<a style="text-align: center">Hình 4.8. Kết quả dự đoán trên tập test khi huấn luyện trên tập không tăng cường</a>
+</p>
 
 * So sánh kết quả trước và sau khi tăng cường dữ liệu: 
     * Các chỉ số AP50 ở các class của các model đều tăng
