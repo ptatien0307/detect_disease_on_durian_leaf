@@ -110,7 +110,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/173475500-dca5d64a-a847-49e2-8952-303a810da625.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình 2.3. Gán nhãn dữ liệu trên roboflow</a>
+<a style="text-align: center">Hình 2.2. Gán nhãn dữ liệu trên roboflow</a>
 </p>
 
 * Tiêu chí khi gán nhãn:
@@ -122,7 +122,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/176161740-955b14cf-aee5-498b-a52a-05dd191206b0.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình 2.4. Ví dụ gán nhãn dữ liệu</a>
+<a style="text-align: center">Hình 2.3. Ví dụ gán nhãn dữ liệu</a>
 </p>
 
 
@@ -131,7 +131,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171002992-38021761-1b44-4d33-b79d-3d6c4d14cd63.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 2.5. Một số ví dụ về bệnh cháy lá</a>
+<a style="text-align: center">Hình 2.4. Một số ví dụ về bệnh cháy lá</a>
 </p>
 
 **Label 2: Bệnh đốm trắng**
@@ -139,7 +139,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/171003346-7fcb90d1-2dca-4df7-a45f-1c85d4cf9db8.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 2.6. Một số ví dụ về bệnh đốm lá (đốm trắng) </a>
+<a style="text-align: center">Hình 2.5. Một số ví dụ về bệnh đốm lá (đốm trắng) </a>
 </p>
 
 ## **2.4. THỐNG KÊ BỘ DỮ LIỆU** 
@@ -150,7 +150,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174441538-a31e8391-3faa-4f06-9154-0c7a8defa24f.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.7. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.6. Thống kê dữ liệu</a>
 </p>
 
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 3284, trong đó:
@@ -165,7 +165,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174441522-0f2d7f9f-c1e4-4647-9cb2-9abf35fe33cb.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.8. Thống kê đối tượng</a>
+<a style="text-align: center">Hình 2.7. Thống kê đối tượng</a>
 </p>
 
 * Bộ dữ liệu không tăng cường:
@@ -175,7 +175,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79445118/178296499-e096f01e-100d-4ced-afb2-33ee459c4a4b.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.9. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.8. Thống kê dữ liệu</a>
 </p>
 
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 442, trong đó:
@@ -190,7 +190,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79445118/178296242-81fd6567-4c02-4833-bf15-f892f4b4438a.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.10. Thống kê đối tượng</a>
+<a style="text-align: center">Hình 2.9. Thống kê đối tượng</a>
 </p>
 
 <a name="training"></a>
