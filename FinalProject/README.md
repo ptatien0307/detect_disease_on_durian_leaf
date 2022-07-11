@@ -578,7 +578,7 @@ Bảng 4.3. Kết quả đánh giá model Faster R-CNN
 <br/>
 <br/>
 <p align="center">
-Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
+Bảng 4.4. Tổng kết đánh giá AP50 trên tập test trên tập dữ liệu tăng cường
 </p>
 
 
@@ -670,7 +670,7 @@ Bảng 4.7. Kết quả đánh giá model Faster R-CNN
 <br/>
 <br/>
 <p align="center">
-Bảng 4.8. Tổng kết đánh giá AP50 trên tập test
+Bảng 4.8. Tổng kết đánh giá AP50 trên tập test khi huấn luyện trên tập dữ liệu không tăng cường
 </p>
 
 
