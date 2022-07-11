@@ -683,6 +683,8 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 | Faster R-CNN     |  <ins>0.6756     |  <ins>0.7131     |  <ins>0.6943  |
 </div>
 
+<br/>
+<br/>
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178278059-3acd25cf-172b-4aa1-9833-e54a3b7d0706.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
