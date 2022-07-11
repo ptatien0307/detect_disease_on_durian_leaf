@@ -597,13 +597,13 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 
 
 
-* 4.2.2.	Kết quả tập test khi huấn luyện trên tập dữ liệu tăng cường
+* 4.2.2.	Kết quả tập test khi huấn luyện trên tập dữ liệu không tăng cường
 *
    * YOLOv4
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178274016-0041dac2-2c04-42e6-834c-f1d1468364bb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình 4.5. Kết quả đánh giá model YOLOv4</a>
+<a style="text-align: center">Hình 4.8. Kết quả đánh giá model YOLOv4</a>
 </p>
 <br/>
 <br/>
@@ -617,7 +617,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 </div>
   
 <p align="center">
-Bảng 4.1. Kết quả đánh giá model YOLOv4
+Bảng 4.5. Kết quả đánh giá model YOLOv4
 </p>
   
 *  
@@ -626,7 +626,7 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178274106-39b75bf6-26fe-4e1c-94aa-e7457d47d234.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình 4.6. Kết quả đánh giá model YOLOv5</a>
+<a style="text-align: center">Hình 4.9. Kết quả đánh giá model YOLOv5</a>
 </p>
   
 <br/>
@@ -642,7 +642,7 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
 </div>
 
 <p align="center">
-Bảng 4.2. Kết quả đánh giá model YOLOv5
+Bảng 4.6. Kết quả đánh giá model YOLOv5
 </p>
   
 *  
@@ -650,13 +650,13 @@ Bảng 4.2. Kết quả đánh giá model YOLOv5
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178274247-44fcb595-2997-4648-a05e-41311c9c65ba.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình 4.7. Kết quả đánh giá model Faster R-CNN</a>
+<a style="text-align: center">Hình 4.10. Kết quả đánh giá model Faster R-CNN</a>
 </p>
 
 <br/>
 <br/>
 <p align="center">
-Bảng 4.3. Kết quả đánh giá model Faster R-CNN
+Bảng 4.7. Kết quả đánh giá model Faster R-CNN
 </p>
 <div align="center">
   
@@ -670,7 +670,7 @@ Bảng 4.3. Kết quả đánh giá model Faster R-CNN
 <br/>
 <br/>
 <p align="center">
-Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
+Bảng 4.8. Tổng kết đánh giá AP50 trên tập test
 </p>
 
 
@@ -696,7 +696,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
     * Model YOLOv5 bị ảnh hưởng tới AP50 nhiều nhất khi không tăng cường dữ liệu với độ chênh lệch trước và sau khi đã tăng cường, đặc biệt ở lớp ChayLa
     * Đối với YOLOv4 và Faster R-CNN thì AP50 thay đổi không quá đáng kể.
  <p align="center">
-Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu chưa tăng cường
+Bảng 4.9. Tổng kết đánh giá AP50 trên tập test với dữ liệu chưa tăng cường
 </p>
 <div align="center">
   
@@ -712,7 +712,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/177570837-5145f2b9-1b5b-4ecf-828a-92b06ce63d51.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
-<a style="text-align: center">Hình 4.8. Kết quả dự đoán trên tập test khi huấn luyện trên tập tăng cường</a>
+<a style="text-align: center">Hình 4.9. Kết quả dự đoán trên tập test khi huấn luyện trên tập tăng cường</a>
 </p>
    
 -> Khi đánh giá bằng điểm AP@0.5, Faster RCNN đều cho kết quả tốt hơn cả 2 model còn lại
@@ -721,7 +721,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175332365-bffa5671-95fb-470b-8bb3-f33550b5eb2b.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.9. Kết quả test</a>
+<a style="text-align: center">Hình 4.10. Kết quả test</a>
 </p>
    
 > Cả ba model đều cho kết quả chính xác khi detect được 2 lá bị bệnh.
@@ -731,7 +731,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175335978-ce112080-815a-4582-963e-72695c91be0c.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.10. Kết quả test</a>
+<a style="text-align: center">Hình 4.11. Kết quả test</a>
 </p>
    
 > YOLOv4 cho kết quả chính xác, YOLOv5 và Faster R-CNN detect sai lá bình thường thành lá bệnh cháy lá.
@@ -740,7 +740,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175336571-9aedc676-416f-423e-8a64-4019d511e72f.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.11. Kết quả test</a>
+<a style="text-align: center">Hình 4.12. Kết quả test</a>
 </p>
    
 > YOLOv4 cho kết quả chính xác, YOLOv5 và Faster R-CNN vẫn detect sai lá bình thường thành lá bệnh cháy lá. Nhưng ở Faster R-CNN vượt trội hơn là detect đúng 1 lá bị cả 2 bệnh.
@@ -750,7 +750,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175337189-d3009849-350d-415e-8a6a-b66f8ba8e127.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.12. Kết quả test</a>
+<a style="text-align: center">Hình 4.13. Kết quả test</a>
 </p>
    
 > YOLOv4, YOLOv5 cho kết quả chính xác. Nhưng Faster R-CNN detect 1 lá bị cả 2 bệnh. Do bệnh cháy lá trên thân lá cũng có đốm nên Faster R-CNN bị nhầm lẫn. 
@@ -759,7 +759,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175337926-6071e62b-1621-440c-b626-523631292033.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.13. Kết quả test</a>
+<a style="text-align: center">Hình 4.14. Kết quả test</a>
 </p>
    
 > Với ảnh có nhiều lá, YOLOv4 và YOLOv5 cho kết quả đúng nhưng bị thiếu khá nhiều bbox. Faster R-CNN detect số bbox nhiều hơn, và độ chính xác cao nhưng vẫn nhầm lẫn lá bình thường với lá bị cháy lá. 
@@ -772,7 +772,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
  <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175340453-264b7809-67f4-4728-97f0-6e0b5f6b5ba6.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.14. Kết quả test lá thường</a>
+<a style="text-align: center">Hình 4.15. Kết quả test lá thường</a>
 </p>
    
 > Test với ảnh lá bình thường, cả 3 model đều có tỉ lệ cao dự đoán sai lá bình thường thành lá bị bệnh cháy lá.
@@ -800,7 +800,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175807266-621ffb53-200b-4064-9d02-5512d3db6977.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.15. Kết quả test</a>
+<a style="text-align: center">Hình 4.16. Kết quả test</a>
 </p>
 </p>
 
@@ -815,7 +815,7 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175807506-9c4ee777-1356-496f-b0ad-cccd110477cc.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.16. Kết quả test</a>
+<a style="text-align: center">Hình 4.17. Kết quả test</a>
 </p>
 
 
@@ -830,13 +830,13 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175806323-5162834c-9b44-4202-a942-429aecfc0681.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.17. Ví dụ về Faster R-CNN detect được nhiều object nhỏ, bị che, mờ nhòe nhiều hơn so với YOLOv4 và YOLOv5</a>
+<a style="text-align: center">Hình 4.18. Ví dụ về Faster R-CNN detect được nhiều object nhỏ, bị che, mờ nhòe nhiều hơn so với YOLOv4 và YOLOv5</a>
 </p>
    
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175807695-fa459fd3-9cf5-41cd-b2fd-7d5f3b06c24e.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.18. Faster R-CNN detect ra được cả những object bị che chắn, mờ nhòe và nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.</a>
+<a style="text-align: center">Hình 4.19. Faster R-CNN detect ra được cả những object bị che chắn, mờ nhòe và nhầm lẫn giữ lá bình thường và lá bị bệnh cháy lá.</a>
 </p>
 </p>
 
@@ -844,13 +844,13 @@ Bảng 4.5. Tổng kết đánh giá AP50 trên tập test với dữ liệu ch�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/175808049-f8eb3f66-c246-418d-a2d9-348be3355421.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.19. Ví dụ về Faster R-CNN detect đúng cả 2 bệnh trên cùng 1 lá mắc phải (YOLOv4 và YOLOv5 không detect được)</a>
+<a style="text-align: center">Hình 4.20. Ví dụ về Faster R-CNN detect đúng cả 2 bệnh trên cùng 1 lá mắc phải (YOLOv4 và YOLOv5 không detect được)</a>
 </p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79462324/176229338-a26960c2-f6ff-4049-911b-b07cb3b4f225.png" style="display: block;margin-left: auto;margin-right: auto;width: 100%; height:100%;"/>
 <br>
-<a style="text-align: center">Hình 4.20. Ví dụ về Faster R-CNN hiệu quả trong việc detect những object bị che khuất so với những model còn lại.</a>
+<a style="text-align: center">Hình 4.21. Ví dụ về Faster R-CNN hiệu quả trong việc detect những object bị che khuất so với những model còn lại.</a>
 </p>
 
    
