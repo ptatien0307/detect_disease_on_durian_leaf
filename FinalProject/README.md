@@ -529,8 +529,7 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
 </p>
   
   
-  * YOLOv5
-  
+   * YOLOv5
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/175068447-88483234-9215-4e68-888a-3dd2c31e51ce.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
@@ -600,7 +599,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 *4.2.2.	Kết quả tập test khi huấn luyện trên tập dữ liệu tăng cường
   * YOLOv4
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/175068337-f9920efc-d6a8-4fa0-8a90-d8aa0add9b38.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="!https://user-images.githubusercontent.com/79445118/178274016-0041dac2-2c04-42e6-834c-f1d1468364bb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.5. Kết quả đánh giá model YOLOv4</a>
 </p>
@@ -610,8 +609,8 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
   
 | Class    |      AP50         | 
 |----------|:-----------------:|
-| ChayLa   |  0.6545           | 
-| DomLa    |  0.6258           |  
+| ChayLa   |  0.5891           | 
+| DomLa    |  0.6108           |  
 
 </div>
   
@@ -623,7 +622,7 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
   * YOLOv5
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/175068447-88483234-9215-4e68-888a-3dd2c31e51ce.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="!https://user-images.githubusercontent.com/79445118/178274106-39b75bf6-26fe-4e1c-94aa-e7457d47d234.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.6. Kết quả đánh giá model YOLOv5</a>
 </p>
@@ -635,8 +634,8 @@ Bảng 4.1. Kết quả đánh giá model YOLOv4
   
 | Class    |      AP50        |  
 |----------|:----------------:| 
-| ChayLa   |  0.5840          |  
-| DomLa    |  0.7620          |  
+| ChayLa   |  0.3010          |  
+| DomLa    |  0.6940          |  
 
 </div>
 
@@ -647,7 +646,7 @@ Bảng 4.2. Kết quả đánh giá model YOLOv5
   
   * Faster R-CNN
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79583501/175298328-b79f8e9a-03cf-4bfd-a26e-7547d4acb9d4.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="!https://user-images.githubusercontent.com/79445118/178274247-44fcb595-2997-4648-a05e-41311c9c65ba.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.7. Kết quả đánh giá model Faster R-CNN</a>
 </p>
@@ -661,8 +660,8 @@ Bảng 4.3. Kết quả đánh giá model Faster R-CNN
   
 | Class       |      AP50        |  
 |-------------|:----------------:|
-| ChayLa      |  0.6822          |  
-| DomTrang    |  0.7576          |  
+| ChayLa      |  0.6756          |  
+| DomTrang    |  0.7131          |  
 </div>
   
   
