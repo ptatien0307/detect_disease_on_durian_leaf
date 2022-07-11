@@ -165,7 +165,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174441522-0f2d7f9f-c1e4-4647-9cb2-9abf35fe33cb.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.9. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.8. Thống kê dữ liệu</a>
 </p>
 
 * Bộ dữ liệu:
@@ -175,7 +175,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178241640-e38b046e-2b7f-47b5-932b-528bcc1c2cde.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.10. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.9. Thống kê dữ liệu</a>
 </p>
 
 * Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 442, trong đó:
@@ -190,7 +190,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="!https://user-images.githubusercontent.com/79445118/178241567-69aa190e-c86e-4f8e-a0de-ab86303a80a4.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.8. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.10. Thống kê dữ liệu</a>
 </p>
 
 <a name="training"></a>
