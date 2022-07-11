@@ -601,7 +601,7 @@ Bảng 4.4. Tổng kết đánh giá AP50 trên tập test
 *
    * YOLOv4
 <p align="center">
-<img src="!https://user-images.githubusercontent.com/79445118/178274016-0041dac2-2c04-42e6-834c-f1d1468364bb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79445118/178274016-0041dac2-2c04-42e6-834c-f1d1468364bb.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.8. Kết quả đánh giá model YOLOv4</a>
 </p>
@@ -624,7 +624,7 @@ Bảng 4.5. Kết quả đánh giá model YOLOv4
   * YOLOv5
   
 <p align="center">
-<img src="!https://user-images.githubusercontent.com/79445118/178274106-39b75bf6-26fe-4e1c-94aa-e7457d47d234.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79445118/178274106-39b75bf6-26fe-4e1c-94aa-e7457d47d234.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.9. Kết quả đánh giá model YOLOv5</a>
 </p>
@@ -648,7 +648,7 @@ Bảng 4.6. Kết quả đánh giá model YOLOv5
 *  
   * Faster R-CNN
 <p align="center">
-<img src="!https://user-images.githubusercontent.com/79445118/178274247-44fcb595-2997-4648-a05e-41311c9c65ba.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79445118/178274247-44fcb595-2997-4648-a05e-41311c9c65ba.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.10. Kết quả đánh giá model Faster R-CNN</a>
 </p>
@@ -686,7 +686,7 @@ Bảng 4.8. Tổng kết đánh giá AP50 trên tập test
 <br/>
 <br/>
 <p align="center">
-<img src="!https://user-images.githubusercontent.com/79445118/178278059-3acd25cf-172b-4aa1-9833-e54a3b7d0706.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
+<img src="https://user-images.githubusercontent.com/79445118/178278059-3acd25cf-172b-4aa1-9833-e54a3b7d0706.png" style="display: block;margin-left: auto;margin-right: auto;width: 75%; height:75%;"/>
 <br>
 <a style="text-align: center">Hình 4.8. Kết quả dự đoán trên tập test khi huấn luyện trên tập không tăng cường</a>
 </p>
