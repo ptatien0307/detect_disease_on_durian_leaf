@@ -165,6 +165,31 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174441522-0f2d7f9f-c1e4-4647-9cb2-9abf35fe33cb.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
+<a style="text-align: center">Hình 2.9. Thống kê dữ liệu</a>
+</p>
+
+* Bộ dữ liệu:
+    * train: bao gồm 225 ảnh
+    * validation: bao gồm 50 ảnh
+    * test: bao gồm 100 ảnh
+<p align="center">
+<img src="!https://user-images.githubusercontent.com/79445118/178241112-f619acc9-fe1d-4c9a-a3ef-f57dcf299d53.png"
+<br>
+<a style="text-align: center">Hình 2.10. Thống kê dữ liệu</a>
+</p>
+
+* Train dataset sau khi đã tăng cường dữ liệu có tổng số object là 442, trong đó:
+    * 135 đối tượng lớp ChayLa
+    * 287 đối tượng lớp DomTrang
+* Validation dataset có tổng số object là 130, trong đó:
+    * 51 đối tượng lớp ChayLa
+    * 79 đối tượng lớp DomTrang
+* Test dataset  có tổng số object là 262, trong đó:
+    * 94 đối tượng lớp ChayLa
+    * 168 đối tượng lớp DomTrang
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79583501/174441522-0f2d7f9f-c1e4-4647-9cb2-9abf35fe33cb.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<br>
 <a style="text-align: center">Hình 2.8. Thống kê dữ liệu</a>
 </p>
 
