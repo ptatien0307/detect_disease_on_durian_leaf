@@ -165,7 +165,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79583501/174441522-0f2d7f9f-c1e4-4647-9cb2-9abf35fe33cb.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.8. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.8. Thống kê đối tượng</a>
 </p>
 
 * Bộ dữ liệu không tăng cường:
@@ -173,7 +173,7 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
     * validation: bao gồm 50 ảnh
     * test: bao gồm 100 ảnh
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79445118/178293851-ce97e9e9-4a49-4e38-9ed9-98deb8b44ef7.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79445118/178296499-e096f01e-100d-4ced-afb2-33ee459c4a4b.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
 <a style="text-align: center">Hình 2.9. Thống kê dữ liệu</a>
 </p>
@@ -188,9 +188,9 @@ Bảng 2.2. Thời gian, địa điểm thu thập và chi tiết về dữ li�
     * 94 đối tượng lớp ChayLa
     * 168 đối tượng lớp DomTrang
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79445118/178293942-37ab2f6e-0d70-42ec-b441-0768d9851006.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
+<img src="https://user-images.githubusercontent.com/79445118/178296242-81fd6567-4c02-4833-bf15-f892f4b4438a.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%; height:50%;"/>
 <br>
-<a style="text-align: center">Hình 2.10. Thống kê dữ liệu</a>
+<a style="text-align: center">Hình 2.10. Thống kê đối tượng</a>
 </p>
 
 <a name="training"></a>
